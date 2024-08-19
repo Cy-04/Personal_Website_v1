@@ -264,6 +264,7 @@ height: 240px;
 }
 .hero_banner_arrow_down{
     margin-left: -5px;
+    bottom: 50px;
 }
 }
 @media (max-width: 600px){
