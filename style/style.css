@@ -244,6 +244,9 @@ height: 240px;
 #mainNav-checkbox:checked~.toggle-button-icons .toggle-x-icon{
     display: block;
 }
+.hero_banner_arrow_down{
+    margin-left: -5px;
+}
 }
 @media (max-width: 600px){
     .mainNav{
