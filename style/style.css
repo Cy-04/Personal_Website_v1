@@ -197,11 +197,11 @@ height: 240px;
 .hero_banner_arrow_down{
     display: block;
     position: absolute;
-    bottom: 25px;
+    bottom: 30px;
     left: 50%;
 }
 .hero_banner_arrow{
-    height: 35px;
+    height: 45px;
 }
 .btn_view_portfolio{
     font-size: 18px;
