@@ -1,0 +1,1 @@
+Photo by Ylanite Koppens: https://www.pexels.com/photo/three-white-ceramic-pots-with-green-leaf-plants-near-open-notebook-with-click-pen-on-top-796602/

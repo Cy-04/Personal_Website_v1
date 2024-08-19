@@ -1,0 +1,1 @@
+Photo by Ketut Subiyanto: https://www.pexels.com/photo/round-table-with-laptop-notebook-and-takeaway-coffee-4559530/
