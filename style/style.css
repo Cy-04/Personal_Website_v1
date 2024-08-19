@@ -279,3 +279,26 @@ height: 240px;
         scale: 70%;
     }
 }
+@media(max-width: 380px){
+.hero_banner_firstName{
+    scale: 60%;
+    margin-left: -70px;
+}
+.hero_banner_lastName{
+    scale: 60%;
+}
+.hero_banner_hr{
+    scale: 60%;
+    margin-left: -10px;
+    height: 4px;
+}
+.hero_banner_career{
+    scale: 60%;
+}
+.hero_banner_subCareer{
+    scale: 60%;
+}
+.hero_banner_callToAction{
+    scale: 70%;
+}
+}
