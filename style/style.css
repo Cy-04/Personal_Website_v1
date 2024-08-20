@@ -156,6 +156,7 @@ height: 240px;
 
 /* HERO BANNER */
 .hero_banner_home{
+    position: relative;
     background: url("../assets/images/home_banner.jpg");
     background-size: cover;
     background-position: center;
