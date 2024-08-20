@@ -7,6 +7,7 @@
     --green: #2E8B57;
     --solidGreen: #006400;
     --white: #E5E5EF;
+    --whiteOverlay: rgba(227,227,237,0.4);
 }
 *{
     padding: 0;
@@ -14,6 +15,7 @@
     box-sizing: border-box; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    scroll-behavior: smooth;
 }
 .active-navLink{
     color: var(--green);
@@ -70,12 +72,14 @@ header .mainNav{
     width: 100%;
     background-color: rgba(255,255,255,0.1);
     backdrop-filter: blur(50px);
+    z-index: 9999;
 }
 .nav-links{
     display: flex;
     height: 40px;
     justify-content: end;
     align-items: end;
+    margin-left: 120px;
     gap: 4rem;
 }
 .navLink_home:hover{
@@ -254,13 +258,35 @@ height: 240px;
     background-color: var(--black);
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 0;
+    padding: 2rem 0;
     font-size: 20px;
 }
 /* PORTFOLIO SUMMARY */
 .portfolio-summary{
+    background: url("../assets/images/porfolio_summary.jpg");
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    background-color: var(--white);
+    padding: .5rem 5%;
+}
+.portfolio-summary-header{
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 27px;
+}
+.cards-container{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.card{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
 }
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
