@@ -319,6 +319,37 @@ gap: 30px;
     display: relative;
     height: 100vh;
 }
+/*footer*/
+footer{
+    position: relative;
+    background-color: var(--black);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.col{
+    position: relative;
+    width: 440px;
+    height: 190px;
+}
+.col-mid{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-logo-white{
+    position: relative;
+    background-color: #006400;
+    width: 110px;
+}
+.logo-white{
+    position: relative;
+    width: 400px;
+    padding: 1rem 0;
+    gap: 0;
+}
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
 .nav-links,
