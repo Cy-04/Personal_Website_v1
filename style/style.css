@@ -2,6 +2,12 @@
     font-family: inkFree;
     src: url(../assets/fonts/Inkfree.ttf);
 }
+:root{
+    --black: #27271F;
+    --green: #2E8B57;
+    --solidGreen: #006400;
+    --white: #E5E5EF;
+}
 *{
     padding: 0;
     margin: 0;
@@ -10,12 +16,13 @@
     color: black;
 }
 .active-navLink{
-    color: #2E8B57;
+    color: var(--green);
+    border-bottom: 3px solid var(--green);
 }
 .section-border h2{
     font-family: inkFree;
     letter-spacing: 7px;
-    color: #E5E5EF;
+    color: var(--white);
 }
 /* MAIN NAVIGATION START*/
 header .mainNav{
@@ -86,14 +93,15 @@ opacity: 0.5;
 /* GET IN TOUCH BUTTON */
 .btn-get-in-touch{
     font-size: 17px;
-    background-color: #006400;
+    background-color: var(--green);
     padding: .7rem 1.5rem;
     color: #E5E5EF;
     border-radius: 30px;
+    transition: .5s ease-in-out;
 }
 .btn-get-in-touch:hover{
     cursor:pointer;
-    background-color: #2E8B57;
+    background-color: var(--solidGreen);
 }
 
 /* DROPDOWN MENU */
@@ -160,14 +168,14 @@ height: 240px;
 .hero_banner_hr{
     width: 305px;
     height: 4px;
-    background: #27271F;
+    background: var(--black);
     border-radius: 25px;
     margin-left: 40px;
     margin-top: -5px;
 }
 .hero_banner_career h1{
     font-size: 55px;
-    color: #2E8B57;
+    color: var(--green);
     letter-spacing: 15px;
     margin-top: -5px;
 }
@@ -185,7 +193,7 @@ height: 240px;
     width: 10px;
     height: 10px;
     margin-top: 5px;
-    background-color: #27271F;
+    background-color: var(--black);
     border-radius: 10px;
 }
 .hero_banner_callToAction{
@@ -222,21 +230,28 @@ height: 240px;
     }
 }
 .btn_view_portfolio{
+    position: relative;
     font-size: 18px;
-    color: #27271F;
-    margin-top: 45px;
+    color: var(--black);
     font-weight: bold;
     padding: .5rem 2.5rem;
-    border: 4px solid #27271F;
+    background-color: var(--white);
+    border: 3px solid var(--black);
+    transition: 0.3s ease-in-out;
+}
+.view_portfolio_container{
+    position: relative;
+    margin-top: 45px;
+    z-index: 1;
 }
 .btn_view_portfolio:hover{
     cursor: pointer;
     color: #E5E5EF;
-    background-color: #27271F;
+    background-color: var(--black);
 }
 .section-border{
     display: flex;
-    background-color: #27271F;
+    background-color: var(--black);
     justify-content: center;
     align-items: center;
     padding: 2.5rem 0;
@@ -245,7 +260,7 @@ height: 240px;
 /* PORTFOLIO SUMMARY */
 .portfolio-summary{
     height: 100vh;
-    background-color: #E5E5EF;
+    background-color: var(--white);
 }
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
