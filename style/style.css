@@ -29,6 +29,8 @@
     font-family: inkFree;
     letter-spacing: 7px;
     color: var(--white);
+    
+    text-align: center;
 }
 /* MAIN NAVIGATION START*/
 header .mainNav{
@@ -156,6 +158,7 @@ height: 240px;
 
 /* HERO BANNER */
 .hero_banner_home{
+    position: relative;
     background: url("../assets/images/home_banner.jpg");
     background-size: cover;
     background-position: center;
@@ -364,6 +367,9 @@ gap: 30px;
     .hero_banner_subCareer{
         scale: 70%;
     }
+    .section-border h2{
+        font-size: 15px;
+    }
 }
 @media(max-height: 854px){
    
@@ -393,5 +399,8 @@ gap: 30px;
 }
 .hero_banner_callToAction{
     scale: 70%;
+}
+.section-border h2{
+    font-size: 14px;
 }
 }
