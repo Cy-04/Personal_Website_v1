@@ -17,6 +17,10 @@
     color: black;
     scroll-behavior: smooth;
 }
+.container{
+    position: relative;
+    z-index: 0;
+}
 .active-navLink{
     color: var(--green);
     border-bottom: 3px solid var(--green);
@@ -236,11 +240,11 @@ height: 240px;
 .btn_view_portfolio{
     position: relative;
     font-size: 18px;
-    color: var(--black);
+    color: var(--green);
     font-weight: bold;
     padding: .5rem 2.5rem;
     background-color: var(--white);
-    border: 3px solid var(--black);
+    border: 3px solid var(--green);
     transition: 0.3s ease-in-out;
 }
 .view_portfolio_container{
@@ -250,8 +254,8 @@ height: 240px;
 }
 .btn_view_portfolio:hover{
     cursor: pointer;
-    color: #E5E5EF;
-    background-color: var(--black);
+    color: var(--white);
+    background-color: var(--green);
 }
 .section-border{
     display: flex;
@@ -283,10 +287,29 @@ gap: 30px;
 }
 .card{
     background-color: rgba(255,255,255,0.1);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(12px);
     border-radius: 15px;
-    height: 400px;
+    height: 500px;
     width: 300px;
+}
+.portfolio-summary-button{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.btn-view-more{
+    font-size: 17px;
+    background-color: var(--white);
+    padding: .7rem 1.5rem;
+    border: 3px solid var(--green);
+    color:  var(--green);
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .5s ease-in-out;
+}
+.btn-view-more:hover{
+ background-color: var(--green);   
+ color: var(--white);
 }
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
