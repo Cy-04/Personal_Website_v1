@@ -314,6 +314,11 @@ gap: 30px;
  background-color: var(--green);   
  color: var(--white);
 }
+/*Skills Section*/
+.section-skills{
+    display: relative;
+    height: 100vh;
+}
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
 .nav-links,
