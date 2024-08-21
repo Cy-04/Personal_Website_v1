@@ -410,6 +410,9 @@ footer{
     .logo-white{
         scale: 60%;
     }
+#animated-icons{
+scale: 89%;
+}
 }
 @media(max-height: 854px){
    
