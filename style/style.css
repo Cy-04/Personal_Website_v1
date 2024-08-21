@@ -410,9 +410,6 @@ footer{
     .logo-white{
         scale: 60%;
     }
-#animated-icons{
-scale: 88%;
-}
 }
 @media(max-height: 854px){
    
@@ -445,5 +442,8 @@ scale: 88%;
 }
 .section-border h2{
     font-size: 14px;
+}
+.col{
+    width: 240px;
 }
 }
