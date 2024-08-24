@@ -77,7 +77,9 @@ header .mainNav{
     font-weight: bold;
     width: 100%;
     background-color: rgba(255,255,255,0.1);
-    backdrop-filter: blur(50px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    border-bottom: 1.5px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
     z-index: 9999;
 }
 .nav-links{
