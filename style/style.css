@@ -448,6 +448,17 @@ footer{
     margin-left: -5px;
     bottom: 30px;
 }
+.carousel-container{
+    margin: 10px;
+}
+
+.carousel-container #btn-scroll-left{
+    margin-left: 10px;
+}
+
+.carousel-container #btn-scroll-right{
+    margin-right: 10px;
+}
 .carousel-container ul.carousel{
     grid-auto-columns: calc((100% / 2) - 9px);
 }
@@ -535,4 +546,5 @@ footer{
 .col{
     width: 235px;
 }
+
 }
