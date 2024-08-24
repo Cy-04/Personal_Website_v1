@@ -283,18 +283,50 @@ height: 240px;
     text-align: center;
     font-size: 27px;
 }
-.cards-container{
-display: flex;
-justify-content: center;
-gap: 30px;
-}
-.card{
-    background-color: rgba(255,255,255,0.1);
-    backdrop-filter: blur(12px);
-    border-radius: 15px;
+.carousel-container{
     height: 500px;
     width: 300px;
 }
+/* carousel start */
+.carousel-container i{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    /*padding: 14px 7px 1px;*/
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    top: 45%;
+    cursor: pointer;
+}
+/*carousel buttons start*/
+.carousel-container i:first-child{
+    left: 15%;
+}
+.carousel-container i:first-child:hover,
+.carousel-container i:last-child:hover
+{
+    scale: 1.07;
+}
+.carousel-container i:last-child{
+    right: 15%;
+}
+.carousel-container i#btn-scroll-left{
+    padding: 7px 6px 10px 7px;  
+}
+.carousel-container i#btn-scroll-right{
+    padding: 7px 10px 1px 7px;  
+}
+.carousel-container li{
+    list-style-type: none;
+}
+.carousel-container i.icon img{
+height: 25px;
+}
+/*carousel buttons end*/
+
+/* carousel end */
 .portfolio-summary-button{
     display: flex;
     justify-content: center;
