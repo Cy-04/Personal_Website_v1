@@ -429,6 +429,67 @@ footer{
     padding: 1rem 0;
     
 }
+/* About Page start*/
+.hero_banner_about{
+    position: relative;
+    background: url("../assets/images/About_Me_Banner.jpg");
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 5%;
+    transition: 0.5s ease;
+}
+/* About Page end */
+/*Portfolio Page start */
+.hero_banner_portfolio{
+    position: relative;
+    background: url("../assets/images/Portfolio_Banner.jpg");
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 5%;
+}
+/*Portfolio Page end */
+/*Gallery Page start */
+.hero_banner_gallery{
+    position: relative;
+    background: url("../assets/images/Gallery_Banner.jpg");
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 5%;
+}
+/*Gallery Page end */
+/*Get in Touch Page start */
+.hero_banner_getInTouch{
+    position: relative;
+    background: url("../assets/images/Get_In_Touch_Banner.jpg");
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 5%;
+}
+/*Get in Touch Page end */
 /* MOBILE RESPONSIVE */
 @media (max-width: 992px){
 .nav-links,
