@@ -277,6 +277,9 @@ height: 240px;
     background-repeat: no-repeat;
     height: 100vh;
     padding: .5rem 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .portfolio-summary-header{
     padding: 2rem 0;
@@ -284,8 +287,10 @@ height: 240px;
     font-size: 27px;
 }
 .carousel-container{
-    height: 500px;
-    width: 300px;
+    position: relative;
+    max-width: 1100px;
+    width: 100%;
+    border: 1px solid black;
 }
 /* carousel start */
 .carousel-container i{
@@ -299,10 +304,42 @@ height: 240px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
     top: 45%;
     cursor: pointer;
+
 }
+.carousel-container ul.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 10px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.carousel :where(.card, .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carousel.no-transition{
+    scroll-behavior: auto;
+}
+/*carousel cards start*/
+.carousel-container ul li.card {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    height: 500px;
+}
+/*carousel cards end*/
 /*carousel buttons start*/
 .carousel-container i:first-child{
-    left: 15%;
+    left: -22px;
 }
 .carousel-container i:first-child:hover,
 .carousel-container i:last-child:hover
@@ -310,7 +347,7 @@ height: 240px;
     scale: 1.07;
 }
 .carousel-container i:last-child{
-    right: 15%;
+    right: -22px;
 }
 .carousel-container i#btn-scroll-left{
     padding: 7px 6px 10px 7px;  
@@ -336,14 +373,15 @@ height: 25px;
     font-size: 17px;
     background-color: var(--white);
     padding: .7rem 1.5rem;
-    border: 3px solid var(--green);
+    border: 2px solid var(--green);
     color:  var(--green);
     font-weight: bold;
     border-radius: 30px;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .btn-view-more:hover{
  background-color: var(--green);   
+ scale: 1.05;
  color: var(--white);
 }
 /*Skills Section*/
@@ -402,6 +440,9 @@ footer{
     margin-left: -5px;
     bottom: 30px;
 }
+.carousel-container ul.carousel{
+    grid-auto-columns: calc((100% / 2) - 9px);
+}
 }
 @media (max-width: 600px){
     .mainNav{
@@ -447,6 +488,9 @@ footer{
         display: none;
     }
     
+.carousel-container ul.carousel{
+    grid-auto-columns: 100%;
+}
 }
 @media(max-height: 854px){
    
