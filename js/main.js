@@ -11,8 +11,6 @@ let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 //Add event listener for the arrow buttons to scroll the carousel left and right
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-        
-    console.log(btn.id);
         carousel.scrollLeft += btn.id === "btn-scroll-left" ? -firstCardWidth : firstCardWidth;
     });
 });
