@@ -315,6 +315,10 @@ height: 240px;
 .carousel.no-transition{
     scroll-behavior: auto;
 }
+.carousel.dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
 /*carousel cards start*/
 .carousel-container ul li.card {
     background-color: rgba(255,255,255,0.3);
@@ -323,6 +327,10 @@ height: 240px;
     backdrop-filter: blur(5px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     height: 500px;
+}
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
 }
 /*carousel cards end*/
 /*carousel buttons start*/
