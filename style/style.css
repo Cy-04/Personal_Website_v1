@@ -440,9 +440,6 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: .5rem 5%;
     transition: 0.5s ease;
 }
@@ -451,12 +448,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    border: #006400;
     height: 100px;
-    width: 1000px;
+    width: 820px;
 }
 .hero_banner_container#banner_about{
-    top: -20%;
+    top: 20%;
 }
 .banner_header{
     font-size: 6.5rem;
@@ -559,6 +555,12 @@ footer{
     grid-auto-columns: calc((100% / 2) - 9px);
 }
 }
+@media (max-width: 850px){
+    .hero_banner_container{
+        scale: 70%;
+        left: -150px;
+    }
+}
 @media (max-width: 600px){
     .mainNav{
         padding: .5rem 3%;
@@ -602,10 +604,14 @@ footer{
     .card:nth-child(3){
         display: none;
     }
-    
-.carousel-container ul.carousel{
-    grid-auto-columns: 100%;
-}
+        
+    .carousel-container ul.carousel{
+        grid-auto-columns: 100%;
+    }
+    .hero_banner_container{
+        scale: 40%;
+        left: -230px;
+    }
 }
 @media(max-height: 854px){
    
@@ -643,4 +649,8 @@ footer{
     width: 235px;
 }
 
+.hero_banner_container{
+    scale: 38%;
+    left: -255px;
+}
 }
