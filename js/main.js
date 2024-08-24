@@ -1,3 +1,18 @@
+//MAIN NAV EVENT START
+/*const btn_hamburger = document.querySelector('.toggle-button-icons');
+btn_hamburger.addEventListener('click', function (){
+    const nav_container = document.getElementById('mainNav');
+    let nav_chckBox = document.getElementById('mainNav-checkbox');
+    if(nav_chckBox.checked){
+        nav_container.style.backdropFilter = "blur(10px)";
+        nav_container.style.background = "rgba(255,255,255,0.3";
+    }else{
+        nav_container.style.backdropFilter = "none";
+        nav_container.style.background = "rgba(0,0,0,0.5";
+    }
+});*/
+//MAIN NAV EVENT END
+
 //CAROUSEL EVENTS START
 const carousel = document.querySelector(".carousel");
 const arrowBtns = document.querySelectorAll(".carousel-container i");
