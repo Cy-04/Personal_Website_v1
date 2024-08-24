@@ -448,11 +448,19 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 100px;
-    width: 820px;
+    border-radius: 25px;
+    padding-left: 10px;
+    height: 260px;
 }
 .hero_banner_container#banner_about{
     top: 20%;
+    width: 820px;
+}
+.hero_banner_container#banner_portfolio{
+    top: 25%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    width: 820px;
 }
 .banner_header{
     font-size: 6.5rem;
