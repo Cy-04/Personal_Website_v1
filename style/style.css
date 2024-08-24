@@ -446,6 +446,39 @@ footer{
     padding: .5rem 5%;
     transition: 0.5s ease;
 }
+.hero_banner_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: #006400;
+    height: 100px;
+    width: 1000px;
+}
+.hero_banner_container#banner_about{
+    top: -20%;
+}
+.banner_header{
+    font-size: 6.5rem;
+    letter-spacing: 2.3rem;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.banner_underline{
+    border: 2px solid var(--black);
+    border-radius: 50px;
+    width: 650px;
+    color: var(--black)
+}
+.banner_subtext{
+    font-size: 2.2rem;
+    font-family: inkfree;
+    color: var(--green);
+}
+.banner_author{
+    font-size: 1.5rem;
+    font-family: inkfree;
+}
 /* About Page end */
 /*Portfolio Page start */
 .hero_banner_portfolio{
