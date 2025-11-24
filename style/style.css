@@ -110,7 +110,8 @@ opacity: 0.5;
     background-color: var(--green);
     padding: .7rem 1.5rem;
     color: #E5E5EF;
-    border-radius: 30px;
+    border: 0.3px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
     transition: .5s ease-in-out;
 }
 .btn-get-in-touch:hover{
