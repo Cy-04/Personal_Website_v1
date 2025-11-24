@@ -108,6 +108,13 @@ header .mainNav{
     margin-left: 120px;
     gap: 4rem;
 }
+.nav-links li a
+{   
+    transform: translateY(-20px);
+    opacity: 0;
+    animation: show_navLinks 1s ease-in forwards;
+    animation-delay: calc(var(--i) * 1.5s);
+}
 .navLink_home:hover,
 .navLink_about:hover,
 .navLink_portfolio:hover,
@@ -136,15 +143,10 @@ transition: 0.3s ease-in;
     transform: translateY(-20px);
     animation: show_navLinks 1s ease-in 1s forwards;
 }
-.nav-links{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: show_navLinks 1s ease-in 1.2s forwards;
-}
 
 .btn-get-in-touch{
     transform: translateY(-20px);
-    animation: show_navLinks 1s ease-in 1.5s forwards;
+    animation: show_navLinks 1s ease-in 2.5s forwards;
 }
 @keyframes show_navLinks{
     0%{
