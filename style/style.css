@@ -214,21 +214,14 @@ height: 240px;
     padding: .5rem 5%;
 }
 .hero_banner_firstName{
-    margin-top: -150px;
+    margin-top: -50px;
 }
 .hero_banner_lastName{
     margin-left: 5rem;
     margin-top: -25px;
+    margin-bottom: -20px;
 }
-.hero_banner_hr{
-    width: 305px;
-    height: 4px;
-    background: var(--black);
-    border-radius: 25px;
-    margin-left: 40px;
-    margin-top: -5px;
-}
-.hero_banner_career h1{
+.hero_banner_career h2{
     font-size: 55px;
     color: var(--green);
     letter-spacing: 15px;
@@ -241,8 +234,33 @@ height: 240px;
     align-items: center;
     justify-content: space-between;
 }
+.hero_banner_careerDivider{
+    padding: -20px ;
+    margin: -10px 5px;
+    display: flex;
+    width: 390px;
+    justify-content: center;
+}
+.hero_banner_careerDivider p{
+    color: var(--green);
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0px -60px;
+}
+
+.hero_banner_careerDivider span{
+    background-color: var(--black);
+    height: 3px;
+    width: 100%;
+    margin: auto 70px;
+    border-radius: 10px;
+}
+
 .hero_banner_subCareer h2{
-    letter-spacing: 7px;
+    font-size: 55px;
+    color: var(--black);
+    letter-spacing: 21.5px;
+    margin-top: -5px;
 }
 .hero_banner_subCareer .circle{
     width: 10px;
