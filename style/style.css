@@ -108,17 +108,13 @@ header .mainNav{
     margin-left: 120px;
     gap: 4rem;
 }
-.navLink_home:hover{
+.navLink_home:hover,
+.navLink_about:hover,
+.navLink_portfolio:hover,
+.navLink_gallery:hover
+{
 opacity: 0.5;
-}
-.navLink_about:hover{
-    opacity: 0.5;
-}
-.navLink_portfolio:hover{
-    opacity: 0.5;
-}
-.navLink_gallery:hover{
-    opacity: 0.5;
+transition: 0.3s ease-in;
 }
 /* GET IN TOUCH BUTTON */
 .btn-get-in-touch{
@@ -132,6 +128,7 @@ opacity: 0.5;
 }
 .btn-get-in-touch:hover{
     cursor:pointer;
+    transition: 0.3s ease-in;
     background-color: var(--solidGreen);
 }
 .logo{
@@ -439,7 +436,7 @@ height: 25px;
 }
 /*Skills Section*/
 .section-skills{
-    background-color: black;
+    background-color: #e2e2e2;
     display: relative;
     height: 100vh;
 }
