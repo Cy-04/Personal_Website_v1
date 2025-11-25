@@ -225,9 +225,10 @@ height: 240px;
         font-size: 70px;
         font-weight: 600;
         color: var(--black);
-        animation: fadeIn_fName 1.5s linear forwards;
+        animation: fadeIn 1.5s linear forwards;
+        animation-delay: 1s;
     }
-    @keyframes fadeIn_fName{
+    @keyframes fadeIn{
         from{
             opacity: 0;
         }
@@ -242,14 +243,14 @@ height: 240px;
         margin-top: 66px;
         margin-left: -5px;
         background-color: var(--black);
-        animation: drawline 1s linear 1.5s forwards;
+        animation: drawline 1s linear 2.5s forwards;
     }
     @keyframes drawline{
         to{
             width: 100px;
         }
     }
-    .hero_banner_firstName svg{
+.hero_banner_firstName svg{
   margin-left: -17px;
   margin-top: 42px;
   transform: rotate(180deg);
@@ -263,7 +264,7 @@ height: 240px;
   animation: drawCircle 6s linear forwards; /* Apply the animation */
 }
 .hero_banner_firstName .drawing-circle{
-    animation-delay: 2.5s;
+    animation-delay: 3.5s;
 }
 @keyframes drawCircle {
   to {
@@ -283,7 +284,7 @@ height: 240px;
   margin-left: -30px;
     }
 .hero_banner_lastName .drawing-circle{
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .hero_banner_lastName span{
         display: inline-block;
@@ -292,7 +293,7 @@ height: 240px;
         margin-top: 17.5px;
         margin-left: -15px;
         background-color: var(--black);
-        animation: drawline 1s linear 1.5s forwards;
+        animation: drawline 1s linear 2.5s forwards;
     }
 .hero_banner_lastName h1{
         opacity: 0;
@@ -301,22 +302,31 @@ height: 240px;
         margin-left: -19px;
         color: var(--black);
         overflow: hidden;
-        animation: fadeIn_lName 1.5s linear 2.5s forwards;
-    }
-    
-    @keyframes fadeIn_lName{
-        from{
-            opacity: 0;
-        }
-        to{
-            opacity: 1;
-        }
+        animation: fadeIn 1.5s linear forwards;
+        animation-delay: 3.5s;
     }
 .hero_banner_career h2{
     font-size: 55px;
+    width: 0;
     color: var(--green);
     letter-spacing: 15px;
     margin-top: -5px;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 3s steps(9) 5s forwards,
+    blink 1s step-end infinite;
+}
+
+@keyframes typing{
+    to{
+        width: 390px;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
 }
 .hero_banner_subCareer{
     display: flex;
@@ -334,24 +344,39 @@ height: 240px;
 }
 .hero_banner_careerDivider p{
     color: var(--green);
+    opacity: 0;
     font-weight: bolder;
     font-size: 35px;
     margin: 0px -60px;
+    animation: fadeIn 1.5s linear forwards;
+    animation-delay: 6s;
 }
 
 .hero_banner_careerDivider span{
     background-color: var(--black);
     height: 3px;
-    width: 100%;
+    width: 0;
     margin: auto 70px;
     border-radius: 10px;
+    animation: drawline 1s linear 6.5s forwards;
 }
 
 .hero_banner_subCareer h2{
     font-size: 55px;
+    opacity: 0;
     color: var(--black);
     letter-spacing: 21.5px;
     margin-top: -5px;
+    animation: slideFromAbove 1s ease-in 7s forwards;
+}
+@keyframes slideFromAbove{
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .hero_banner_subCareer .circle{
     width: 10px;
@@ -401,7 +426,8 @@ height: 240px;
     padding: .5rem 2.5rem;
     background-color: var(--white);
     border: 3px solid var(--green);
-    transition: 0.3s ease-in-out;
+    opacity: 0;
+    animation: slideFromAbove 1s ease-in 7s forwards;
 }
 .view_portfolio_container{
     position: relative;
@@ -412,6 +438,7 @@ height: 240px;
     cursor: pointer;
     color: var(--white);
     background-color: var(--green);
+    transition: 0.3s ease-in-out;
 }
 .section-border{
     display: flex;
