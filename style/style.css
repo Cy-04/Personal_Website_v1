@@ -427,6 +427,7 @@ height: 240px;
     padding: .5rem 2.5rem;
     background-color: var(--white);
     border: 3px solid var(--green);
+    border-radius: 10px;
     opacity: 0;
     animation: slideFromAbove 1s ease-in 7.5s forwards;
 }
