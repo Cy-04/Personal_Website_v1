@@ -213,6 +213,7 @@ height: 240px;
     flex-direction: column;
     justify-content: center;
     padding: .5rem 5%;
+    animation: fadeIn 1s ease-in forwards;
 }
 .hero_banner_firstName{
     display: flex;
@@ -427,7 +428,7 @@ height: 240px;
     background-color: var(--white);
     border: 3px solid var(--green);
     opacity: 0;
-    animation: slideFromAbove 1s ease-in 7s forwards;
+    animation: slideFromAbove 1s ease-in 7.5s forwards;
 }
 .view_portfolio_container{
     position: relative;
