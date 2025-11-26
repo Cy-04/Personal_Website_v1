@@ -18,6 +18,28 @@
     color: black;
     scroll-behavior: smooth;
 }
+.Parallax_Background{
+    position: absolute;
+    width: 100%;
+}
+.Parallax_Background div.banner_background{
+    background: url("../assets/images/home_banner.jpg");
+    background-attachment: fixed;
+}
+.Parallax_Background div.portfolioSection_background{
+    background: url("../assets/images/porfolio_summary.jpg");
+    background-attachment: fixed;
+}
+.Parallax_Background div.banner_background,
+.Parallax_Background div.portfolioSection_background,
+.Parallax_Background div.aboutSection_background
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .container{
     position: relative;
     z-index: 0;
@@ -204,10 +226,10 @@ height: 240px;
 /* HERO BANNER */
 .hero_banner_home{
     position: relative;
-    background: url("../assets/images/home_banner.jpg");
+    /*background: url("../assets/images/home_banner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -457,11 +479,12 @@ height: 240px;
 }
 /* PORTFOLIO SUMMARY */
 .portfolio-summary{
-    background: url("../assets/images/porfolio_summary.jpg");
-    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
+    /*background: url("../assets/images/porfolio_summary.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    */
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
     height: 100vh;
     padding: .5rem 5%;
     display: flex;
