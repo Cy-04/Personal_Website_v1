@@ -450,6 +450,11 @@ height: 240px;
     padding: 2rem 0;
     font-size: 20px;
 }
+/*ABOUT ME SUMMARY*/
+.aboutMe-summary{
+    height: 100vh;
+    background-color: var(--white);
+}
 /* PORTFOLIO SUMMARY */
 .portfolio-summary{
     background: url("../assets/images/porfolio_summary.jpg");
