@@ -541,11 +541,12 @@ height: 240px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
-    height: 100vh;
+    min-height: 100vh;
     padding: .5rem 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .portfolio-summary-header{
     padding: 2rem 0;
