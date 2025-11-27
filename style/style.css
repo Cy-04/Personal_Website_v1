@@ -695,7 +695,12 @@ footer #footer-links-container #social-media-links{
 }
 
 footer #footer-links-container #social-media-links li{
-    margin: auto 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+footer #footer-links-container #social-media-links li:nth-child(2){
+    border-left: 2px solid var(--white);
+    border-right: 2px solid var(--white);
 }
 footer #footer-links-container #social-media-links img{
     width: 30px;
@@ -714,6 +719,7 @@ footer #footer-links-container #sitemap li{
     font-size: 18px;
     margin: 0 30px;
     font-weight: 600;
+    
 }
 footer #footer-links-container #sitemap li:hover{
     color: var(--white);
