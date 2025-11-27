@@ -980,6 +980,10 @@ footer #footer-copyright-container p{
         align-items: center;
         z-index: -2;
     }
+    .hero_banner_home,
+    .portfolio-summary{
+        background-attachment: scroll;
+    }
     .hero_banner_firstName{
         scale: 70%;
 
