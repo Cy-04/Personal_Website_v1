@@ -6,7 +6,7 @@
    @supports (-webkit-touch-callout: none) { /* Targets iOS devices */
       .hero_banner_home,
        .portfolio-summary{
-        background-attachment: scroll; /* or unset */
+        background-attachment: unset; /* or unset */
       }
     }
 :root{
