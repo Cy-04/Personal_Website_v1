@@ -3,12 +3,7 @@
     font-family: inkFree;
     src: url(../assets/fonts/Inkfree.ttf);
 }
-   @supports (-webkit-touch-callout: none) { /* Targets iOS devices */
-      .hero_banner_home,
-       .portfolio-summary{
-        background-attachment: unset; /* or unset */
-      }
-    }
+   
 :root{
     --black: #27271F;
     --green: #2E8B57;
