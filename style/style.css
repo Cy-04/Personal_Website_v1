@@ -24,29 +24,67 @@ body{
     font-family: "Inter", sans-serif;
     color: var(--black);
     scroll-behavior: smooth;
-}/*
-.Parallax_Background{
-    position: absolute;
+}
+
+.btn-primary{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: var(--green);
+    padding: .7rem 1.5rem;
+    color: #E5E5EF;
+    border: 0.3px solid rgba(255,255,255,0.5);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-primary:hover{
+    cursor:pointer;
+    transition: 0.3s ease-in;
+    background-color: var(--solidGreen);
+}
+
+.btn-outline{
+    font-size: 17px;
+    background-color: var(--white);
+    padding: .7rem 1.5rem;
+    border: 2px solid var(--green);
+    color:  var(--green);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-outline:hover{
+ background-color: var(--green);   
+ scale: 1.05;
+ color: var(--white);
+ transition: .3s ease-in-out;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     width: 100%;
 }
-.Parallax_Background div.banner_background{
-    background: url("../assets/images/home_banner.jpg");
-    background-attachment: fixed;
+input,
+textarea{
+    border: 0px;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 30px;
+    padding: 10px;
 }
-.Parallax_Background div.portfolioSection_background{
-    background: url("../assets/images/porfolio_summary.jpg");
-    background-attachment: fixed;
+textarea{
+    height: 150px;
 }
-.Parallax_Background div.banner_background,
-.Parallax_Background div.portfolioSection_background,
-.Parallax_Background div.aboutSection_background
-{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.center{
+    margin: 0 auto;
 }
-*/
+.form-label{
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: var(--green);
+}
 .container{
     position: relative;
     z-index: 0;
@@ -154,41 +192,6 @@ opacity: 0.5;
 transition: 0.3s ease-in;
 }
 /* GET IN TOUCH BUTTON */
-.btn-primary{
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 190px;
-    background-color: var(--green);
-    padding: .7rem 1.5rem;
-    color: #E5E5EF;
-    border: 0.3px solid rgba(255,255,255,0.5);
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    text-align: center;
-}
-.btn-primary:hover{
-    cursor:pointer;
-    transition: 0.3s ease-in;
-    background-color: var(--solidGreen);
-}
-
-.btn-outline{
-    font-size: 17px;
-    background-color: var(--white);
-    padding: .7rem 1.5rem;
-    border: 2px solid var(--green);
-    color:  var(--green);
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.btn-outline:hover{
- background-color: var(--green);   
- scale: 1.05;
- color: var(--white);
- transition: .3s ease-in-out;
-}
 .btn-get-in-touch{
     opacity: 0;
 }
@@ -670,10 +673,26 @@ height: 25px;
     padding: 4rem 0;
 }
 /*Skills Section*/
-.section-skills{
+.section-contactMe{
     background-color: #e2e2e2;
-    display: relative;
-    height: 100vh;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-contactMe form{
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-contactMe button{
+    display: flex;
+    margin: 30px auto;
 }
 /*footer*/
 footer{
@@ -1035,6 +1054,10 @@ footer #footer-copyright-container p{
         scale: 40%;
         left: 220px;
         top:16%;
+    }
+    
+    .section-contactMe form{
+        width: 100%;
     }
     footer #social-media-links{
         scale:80%;
