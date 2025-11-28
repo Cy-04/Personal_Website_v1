@@ -1002,6 +1002,9 @@ footer #footer-copyright-container p{
     .hero_banner_subCareer{
         scale: 70%;
     }
+    .aboutMe-summary div.image-container img{
+    scale: 90%;
+}
     .section-border h2{
         font-size: 15px;
     }
