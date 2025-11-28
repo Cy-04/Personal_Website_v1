@@ -1004,11 +1004,11 @@ footer #footer-copyright-container p{
     }
     .aboutMe-summary div.image-container img{
     scale: 90%;
-}
-.portfolio-summary .carousel-container{
-    margin: 0 auto;
-    scale: 85%;
-}
+    }
+    .portfolio-summary .carousel-container{
+        margin: 0 auto;
+        scale: 85%;
+    }
     .section-border h2{
         font-size: 15px;
     }
@@ -1032,6 +1032,12 @@ footer #footer-copyright-container p{
         scale: 40%;
         left: 220px;
         top:16%;
+    }
+    footer #social-media-links{
+        scale:80%;
+    }
+    footer #sitemap{
+        scale:80%;
     }
 }
 @media(max-width:400px){
