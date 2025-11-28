@@ -502,11 +502,12 @@ height: 240px;
     background-color: var(--green);
     transition: 0.3s ease-in-out;
 }
-.section-border{
+.gallery-section{
     display: flex;
-    background-color: var(--black);
+    background-color: var(--green);
     justify-content: center;
     align-items: center;
+    height: 200px;
     padding: 2rem 0;
     font-size: 20px;
 }
