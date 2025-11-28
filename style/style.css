@@ -172,6 +172,23 @@ transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     background-color: var(--solidGreen);
 }
+
+.btn-outline{
+    font-size: 17px;
+    background-color: var(--white);
+    padding: .7rem 1.5rem;
+    border: 2px solid var(--green);
+    color:  var(--green);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-outline:hover{
+ background-color: var(--green);   
+ scale: 1.05;
+ color: var(--white);
+ transition: .3s ease-in-out;
+}
 .btn-get-in-touch{
     opacity: 0;
 }
@@ -650,21 +667,6 @@ height: 25px;
     display: flex;
     justify-content: center;
     padding: 4rem 0;
-}
-.btn-view-more{
-    font-size: 17px;
-    background-color: var(--white);
-    padding: .7rem 1.5rem;
-    border: 2px solid var(--green);
-    color:  var(--green);
-    font-weight: bold;
-    border-radius: 30px;
-    transition: .3s ease-in-out;
-}
-.btn-view-more:hover{
- background-color: var(--green);   
- scale: 1.05;
- color: var(--white);
 }
 /*Skills Section*/
 .section-skills{
