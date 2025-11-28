@@ -1005,6 +1005,10 @@ footer #footer-copyright-container p{
     .aboutMe-summary div.image-container img{
     scale: 90%;
 }
+.portfolio-summary .carousel-container{
+    margin: 0 auto;
+    scale: 85%;
+}
     .section-border h2{
         font-size: 15px;
     }
