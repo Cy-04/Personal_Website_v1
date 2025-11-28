@@ -510,7 +510,7 @@ height: 240px;
 .aboutMe-summary div.image-container .image-overlay{
     background-color: var(--whiteOverlay);
     position:absolute;
-    max-width: 400px;
+    width: 400px;
     height: 600px;
     border-radius: 8%;
     z-index: 1;
