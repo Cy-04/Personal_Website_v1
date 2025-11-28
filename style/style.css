@@ -707,7 +707,7 @@ footer #footer-links-container #social-media-links li{
 }
 footer #footer-links-container #social-media-links li:nth-child(2){
     border-left: 2px solid var(--white);
-    border-right: 2git px solid var(--white);
+    border-right: 2px solid var(--white);
 }
 footer #footer-links-container #social-media-links img{
     width: 30px;
@@ -764,7 +764,7 @@ footer #footer-copyright-container p{
 }
 .logo-white{
     position: relative;
-    width: 10%;
+    width: 150px;
     padding-bottom: 10px;
     
 }
