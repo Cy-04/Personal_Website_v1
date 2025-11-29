@@ -680,6 +680,107 @@ height: 25px;
     justify-content: center;
     padding: 4rem 0;
 }
+/*Services Section*/
+.section-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;    
+    background-color: var(--white);
+}
+.section-services .services-box {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    justify-content: center;
+}
+.section-services .title-top{
+    clip-path: polygon(0 0, 100% 0, 100% 49%, 0 49%);
+    transform:translateY(-50px);
+}
+.section-services .title-bottom{
+    clip-path: polygon(0 49%, 100% 49%, 100% 100%, 0 100%);
+    color: var(--green);
+    transform:translateY(47px);
+}
+.services-box:hover .title-top{
+    transform: translateY(0);
+}
+
+.services-box:hover .title-bottom{
+    transform: translateY(0);
+}
+
+.section-services .main-title{
+    position: absolute;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 200px;
+    font-weight: bolder;
+    z-index: 1;
+    background-color: var(--white);
+    transition: transform 1s;
+}
+.section-services .sub-title{
+    position:absolute;
+    font-size: 47px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.section-services .other-title{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section-services .title-1{
+    color: var(--green);
+    margin-top: 65px;
+    margin-left: -190px;
+    letter-spacing: 3px;
+    color: var(--black);
+}
+.section-services .title-2{
+    color: var(--green);
+    margin-top: 110px;
+    margin-left:-1px;
+    letter-spacing: 3px;
+}
+
+.section-services .title-divider{
+    margin: 80px;
+    margin-left: 110px;
+    font-size: 22px;
+}
+.section-services .vertical-rule{
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background-color: #2E8B57;
+    border-radius: 2px;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+.section-services .title-branding{
+    margin-top: 109px;
+    margin-left: -399px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transform: rotate(270deg);
+}
+.section-services .title-graphics{
+    margin-top: 75px;
+    margin-left: 245px;
+    letter-spacing: 7px;
+    font-size: 14px;
+}
+.section-services .title-logos{
+    margin-top: 95px;
+    margin-left: 255px;
+    letter-spacing: 18.2px;
+    font-size: 14px;
+    color: var(--green)
+}
 /*Skills Section*/
 .section-contactMe{
     background-color: #e2e2e2;
@@ -1069,6 +1170,9 @@ footer #footer-copyright-container p{
         scale: 40%;
         left: 220px;
         top:16%;
+    }
+    .section-services .services-box{
+        scale: 65%;
     }
     .section-contactMe h2,
     .section-contactMe p{
