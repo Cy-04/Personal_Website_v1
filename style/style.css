@@ -1070,10 +1070,18 @@ footer #footer-copyright-container p{
         left: 220px;
         top:16%;
     }
-    
+    .section-contactMe h2,
+    .section-contactMe p{
+        scale:95%;
+        text-align: center;
+    }
+    .section-contactMe .horizontal-line{
+        width: 300px;
+    }
     .section-contactMe form{
         padding-top: 50px;
         width: 100%;
+        scale: 95%;
     }
     footer #social-media-links{
         scale:80%;
