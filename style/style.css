@@ -783,21 +783,23 @@ height: 25px;
 }
 /*Skills Section*/
 .section-contactMe{
-    background-color: #e2e2e2;
+    background-color: var(--white);
     height: 800px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 .section-contactMe .h2{
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 .section-contactMe p{
     font-size: 17px;
     font-weight: bold;
+    padding-left: 10px;
 }
 .section-contactMe form{
     width: 500px;
