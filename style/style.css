@@ -26,6 +26,20 @@ body{
     scroll-behavior: smooth;
 }
 
+.h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 20px;
+    margin: 25px auto;
+    color: var(--green);
+}
+.horizontal-line{
+    height: 3px;
+    width: 475px;
+    border-radius: 1.5px;
+    background-color: #2E8B57;
+    margin: 15px auto;
+}
 .btn-primary{
     font-size: 17px;
     font-weight: bold;
@@ -549,12 +563,6 @@ height: 240px;
     max-width: 500px;
 }
 
-.aboutMe-summary div.txtIntroduction-container h2{
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding: 20px;
-    margin: 25px auto;
-}
 .aboutMe-summary div.txtIntroduction-container p{
     padding: 20px;
 }.aboutMe-summary div.txtIntroduction-container a{
@@ -682,10 +690,17 @@ height: 25px;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
+.section-contactMe .h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.section-contactMe p{
+    font-size: 17px;
+    font-weight: bold;
+}
 .section-contactMe form{
     width: 500px;
-    padding: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1057,6 +1072,7 @@ footer #footer-copyright-container p{
     }
     
     .section-contactMe form{
+        padding-top: 50px;
         width: 100%;
     }
     footer #social-media-links{
