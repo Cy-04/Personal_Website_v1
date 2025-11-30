@@ -187,7 +187,6 @@ header .mainNav{
     height: 40px;
     justify-content: end;
     align-items: end;
-    margin-left: 120px;
     gap: 4rem;
 }
 .nav-links li a
