@@ -13,11 +13,9 @@
 }
 html{
     overflow-x: clip;
-    overflow-y: auto;
 }
 body{
     overflow-x: clip;
-    overflow-y: auto;
 }
 *{
     padding: 0;
