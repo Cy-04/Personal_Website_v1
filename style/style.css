@@ -844,7 +844,6 @@ transform: translateX(0);
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }
 .section-contactMe .h2{
     margin-bottom: 0;
@@ -861,10 +860,17 @@ transform: translateX(0);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    transition: 1s ease-in;
+    transform: translateY(100px);
+    opacity: 0;
 }
 .section-contactMe button{
     display: flex;
     margin: 30px auto;
+}
+.section-contactMe .contact_form.active{
+    opacity: 1;
+    transform: translateY(0px);
 }
 /*footer*/
 footer{
