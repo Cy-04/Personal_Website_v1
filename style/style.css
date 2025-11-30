@@ -610,7 +610,7 @@ transform: translateX(0);
     text-align: center;
     font-size: 27px;
     transition: 0.8s ease-in-out;
-    transform: translateX(100px);
+    transform: translateY(100px);
     opacity: 0;
 }
 .carousel-container{
@@ -707,7 +707,7 @@ height: 25px;
     justify-content: center;
     padding: 4rem 0;
     transition: 0.8s ease-in-out;
-    transform: translateX(100px);
+    transform: translateY(100px);
     opacity: 0;
 }
 .portfolio-summary .reveal.active{
