@@ -33,6 +33,9 @@ body{
     margin: 25px auto;
     color: var(--green);
 }
+.text-white {
+    color: var(--white);
+}
 .horizontal-line{
     height: 3px;
     width: 475px;
@@ -657,6 +660,18 @@ transform: translateX(0);
     transition: 0.8s ease-in-out;
     transform: translateX(100px);
     opacity: 0;
+}
+.carousel-container ul li.card .card_overlay{
+    position:absolute;
+    background-color: var(--black);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.carousel-container ul li.card h4{
+    z-index: 1;
 }
 .carousel.dragging .card{
     cursor: grab;
