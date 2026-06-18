@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 @font-face {
     font-family: inkFree;
     src: url(../assets/fonts/Inkfree.ttf);
@@ -21,7 +22,10 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    font-family: "Inter", sans-serif;
+    /*font-family: "Inter", sans-serif;*/
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
     color: var(--black);
     scroll-behavior: smooth;
 }
@@ -41,6 +45,12 @@ body{
 }
 .text-white {
     color: var(--white);
+}
+.text-dark{
+    color: var(--black);
+}
+.text-green{
+    color: var(--green);
 }
 .horizontal-line{
     height: 3px;
@@ -307,6 +317,7 @@ height: 240px;
     margin-bottom: 5px;
 }
     .hero_banner_firstName h1{
+        font-family: "Inter", sans-serif;
         opacity:0;
         font-size: 70px;
         font-weight: 600;
@@ -382,6 +393,7 @@ height: 240px;
         animation: drawline 1s linear 2.5s forwards;
     }
 .hero_banner_lastName h1{
+    font-family: "Inter", sans-serif;
         opacity: 0;
         font-size: 70px;
         font-weight: 600;
@@ -392,17 +404,34 @@ height: 240px;
         animation-delay: 3.5s;
     }
 .hero_banner_career h2{
+    font-family: "Inter", sans-serif;
     font-size: 55px;
-    width: 0;
+    width: 390px;
     color: var(--green);
-    letter-spacing: 15px;
+    letter-spacing: 0;
     margin-top: -5px;
-    overflow: hidden;
-    border-right: 2px solid;
-    animation: typing 3s steps(9) 5s forwards,
-    blink 1s step-end infinite;
+    opacity: 0;
+    animation: slideFromAbove 1s ease-in 4s forwards;
 }
+.hero_banner_career span{
+    font-size: 55px;
+    font-family: "Inter", sans-serif;
+}
+.hero_banner_career p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    width: 390px;
+    opacity:0;
+    animation: slideFromAbove 1s ease-in 4.5s forwards;
+}
+.hero_banner_career p span{
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 4px;
+    font-size: 22px;
 
+}
 @keyframes typing{
     to{
         width: 390px;
@@ -514,7 +543,7 @@ height: 240px;
     border: 3px solid var(--green);
     border-radius: 10px;
     opacity: 0;
-    animation: slideFromAbove 1s ease-in 7.5s forwards;
+    animation: slideFromAbove 1s ease-in 5s forwards;
 }
 .view_portfolio_container{
     position: relative;
