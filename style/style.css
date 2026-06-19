@@ -10,13 +10,14 @@
     --green: #2E8B57;
     --solidGreen: #006400;
     --white: #E5E5EF;
-    --whiteOverlay: rgba(227,227,237,0.2);
+    --whiteOverlay: rgba(227,227,237,0.4);
 }
 html{
     overflow-x: clip;
 }
 body{
     overflow-x: clip;
+    background-color: var(--white);
 }
 *{
     padding: 0;
@@ -40,7 +41,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     padding: 20px;
-    margin: 25px auto;
+    margin: 5px auto;
     color: var(--green);
 }
 .text-white {
@@ -330,6 +331,7 @@ max-height: 280px;
     justify-content: center;
     padding: .5rem 5%;
     animation: fadeIn 1s ease-in forwards;
+    
 }
 .hero_banner_firstName{
     display: flex;
@@ -1049,6 +1051,8 @@ footer #footer-copyright-container p{
     width: 100%;
     padding: .5rem 5%;
     transition: 0.5s ease;
+    border-bottom-right-radius: 220px;
+    
 }
 .hero_banner_container#about{
     background: url("../assets/images/About_Me_Banner.jpg");
