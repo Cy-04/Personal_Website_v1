@@ -278,7 +278,7 @@ transition: 0.3s ease-in;
 /* DROPDOWN MENU */
 .mainNav-dropdown-menu{
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     top: 5.5rem;
     max-height: 0;
