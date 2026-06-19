@@ -138,7 +138,7 @@ header .mainNav{
     position: fixed;
 }
 .logo{
-    height: 4rem;
+    height: 3.9rem;
 }
 .logo:hover{
     cursor:pointer;
@@ -251,6 +251,9 @@ transition: 0.3s ease-in;
     cursor:pointer;
     transition: 0.3s ease-in;
     background-color: var(--solidGreen);
+}
+.logo-container{
+    width: 202.21px;
 }
 .logo{
     opacity: 0;
