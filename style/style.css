@@ -185,8 +185,12 @@ header .mainNav{
     border-radius: 20px;
     backdrop-filter: blur(10px);
     z-index: 9999;
-    animation: expand_mainNav 1s ease-in 1s forwards;
+    animation: expand_mainNav 1s ease-out 1s forwards;
+    overflow: hidden;
     opacity: 0;
+}
+#mainNav.hidden {
+   animation: compress_mainNav 0.4s ease-in forwards;
 }
 @keyframes expand_mainNav{
     0%{
@@ -200,6 +204,21 @@ header .mainNav{
         height: 80px;
         opacity:1;
     }
+}
+
+
+@keyframes compress_mainNav {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
 }
 .nav-links{
     display: flex;
