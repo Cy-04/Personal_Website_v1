@@ -18,14 +18,14 @@
         <link rel="stylesheet" href="../style/style.css">
         <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <script defer src="../js/main.js"></script>
-        
+        <script defer src="../js/hide_and_show_nav_while_scrolling.js"></script>
+        <script defer src="../js/hide_and_show_nav_on_mobile.js"></script>
     </head>
     <body>
         <!--Main Navigation-->
         <header>
             <div class="mainNav">
                 <a href="/index.html" class="nav-logo"><img class="logo" src="../assets/images/logo.png" alt="logo"></a>
-                <input type="checkbox" id="mainNav-checkbox">
                 
                 <ul class="nav-links">
                     <li ><a href="/index.html" class="navLink_home" style="--i:1">Home</a></li>
@@ -35,17 +35,17 @@
                 </ul>
                 <a href="/pages/contact.html" class="btn-get-in-touch btn-primary">Let's Collaborate</a>
                 
-            <label class="toggle-button-icons" for="mainNav-checkbox">
+            <label class="toggle-button-icons"  for="" id="btn-hamburger">
                 <img class ="toggle-bar-icon" src="../assets/images/icons/bars-solid.svg" alt="toggle-bar">
-                <img class ="toggle-x-icon" src="../assets/images/icons/x-solid.svg" alt="toggle-x">
             </label>
-            <div class="mainNav-dropdown-menu">
+            </div>
+            
+            <div class="mainNav-dropdown-menu" id="mainNav-dropdown-menu">
                     <li><a href="/index.html" style="--i:1">Home</a></li>
                     <li><a href="/pages/about.html" style="--i:2" class="active-navLink">Who am I</a></li>
                     <li><a href="/pages/portfolio.html" style="--i:3">My Works</a></li>
                     <li><a href="/pages/gallery.html" style="--i:4">Gallery</a></li>
                     <li><a href="/pages/contact.html" style="--i:5" class="btn-get-in-touch btn-primary">Let's Collaborate</a></li>
-            </div>
             </div>
         </header>
         <div class="container">

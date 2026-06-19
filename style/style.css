@@ -277,16 +277,15 @@ transition: 0.3s ease-in;
     display: flex;
     position: absolute;
     flex-direction: column;
-    right: 2rem;
     top: 5.5rem;
-    height: 0;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.6);
-    /*backdrop-filter: blur(15px)*/;
-    border-radius: 10px;
+    max-height: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
     overflow: hidden;
-    transition: height 0.2s cubit-bezier(0.175, 0.885, 0.32, 1.275);
-    
+    transition: max-height 0.7s ease;
+    z-index: 9999;
 }
 .mainNav-dropdown-menu li{
     padding: 0.7rem;
@@ -304,10 +303,10 @@ transition: 0.3s ease-in;
     transform: translateY(-50px);
     transition: .3s ease-in-out;
 }
-#mainNav-checkbox:checked~.mainNav-dropdown-menu{
-height: 240px;
+#mainNav-dropdown-menu.active {
+max-height: 280px;
 }
-#mainNav-checkbox:checked~.mainNav-dropdown-menu a{
+#mainNav-dropdown-menu.active a{
     transform: translateY(0);
     opacity: 1;
     transition-delay: calc(.15s * var(--i));
@@ -1240,7 +1239,6 @@ footer #footer-copyright-container p{
     }
     .mainNav-dropdown-menu{
         width: 100%;
-        right: 0;
     }
     .hero_banner_home{
         position: relative;

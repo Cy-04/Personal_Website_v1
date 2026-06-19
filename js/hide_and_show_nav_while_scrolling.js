@@ -8,7 +8,6 @@ window.addEventListener('scroll', () => {
   // Hide when scrolling down (past the nav height)
   if (currentScrollY > lastScrollY && currentScrollY > nav.offsetHeight) {
     nav.classList.add('hidden');
-    console.log("hello there");
   }
   // Show immediately when scrolling up
   else if (currentScrollY < lastScrollY) {
