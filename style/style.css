@@ -10,7 +10,7 @@
     --green: #2E8B57;
     --solidGreen: #006400;
     --white: #E5E5EF;
-    --whiteOverlay: rgba(227,227,237,0.4);
+    --whiteOverlay: rgba(227,227,237,0.2);
 }
 html{
     overflow-x: clip;
