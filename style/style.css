@@ -421,14 +421,14 @@ height: 240px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
     font-weight: 500;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     width: 390px;
     opacity:0;
     animation: slideFromAbove 1s ease-in 4.5s forwards;
 }
 .hero_banner_career p span{
     font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 22px;
 
 }
@@ -1020,8 +1020,12 @@ footer #footer-copyright-container p{
 }
 /* About Page start*/
 .hero_banner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     height: 100vh;
+    width: 100%;
     padding: .5rem 5%;
     transition: 0.5s ease;
 }
@@ -1064,12 +1068,13 @@ footer #footer-copyright-container p{
     backdrop-filter: blur(5px);
     padding: 25px;
     border-radius: 35px;
-    width:700px;
-    top: 60%;
+    width:600px;
+    top: 25%;
+    left: -250px;
 }
 .banner_header{
     font-size: 3.5rem;
-    letter-spacing: 2rem;
+    letter-spacing: 1.5rem;
     font-weight: 400;
     margin-bottom: -10px;
     line-height: 50px;
@@ -1078,7 +1083,7 @@ footer #footer-copyright-container p{
     margin:15px 0;
     border: 2px solid var(--black);
     border-radius: 50px;
-    width: 650px;
+    width: 550px;
     color: var(--black)
 }
 .banner_subtext{
@@ -1198,14 +1203,11 @@ footer #footer-copyright-container p{
 }
 }
 @media (max-width: 850px){
-    .hero_banner_container{
+    .hero_banner_header_container{
         scale: 70%;
-        left: -150px;
-    }
-    .hero_banner_container_gallery{
-        scale: 70%;
-        left: 100px;
-        top: 8%;
+        margin: auto;
+         top: -15%;
+        left:0;
     }
     .aboutMe-summary{
         display: flex;
@@ -1271,16 +1273,13 @@ footer #footer-copyright-container p{
     .carousel-container ul.carousel{
         grid-auto-columns: 100%;
     }
-    .hero_banner_container{
+    .hero_banner_header_container{
         scale: 40%;
-        left: -230px;
+        margin: auto;
+         top: -15%;
+        left:0;
     }
     
-    .hero_banner_container_gallery{
-        scale: 40%;
-        left: 220px;
-        top:16%;
-    }
     .section-services .services-box{
         scale: 65%;
     }
@@ -1342,13 +1341,11 @@ footer #footer-copyright-container p{
     width: 235px;
 }
 
-.hero_banner_container{
+.hero_banner_header_container{
     scale: 38%;
-    left: -255px;
+    margin: auto;
+    top: -15%;
+    left:0;
 }
 
-.hero_banner_container_gallery{
-    scale: 38%;
-    top: 17%;
-}
 }
