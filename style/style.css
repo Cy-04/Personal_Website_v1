@@ -11,6 +11,7 @@
     --solidGreen: #006400;
     --white: #E5E5EF;
     --whiteOverlay: rgba(227,227,237,0.4);
+    --offwhite: #EFF0E9;
 }
 html{
     overflow-x: clip;
@@ -1080,6 +1081,45 @@ footer #footer-copyright-container p{
     background-position: center;
     background-repeat: no-repeat;
 }
+section.my-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 1300px;
+}
+.my-story-plaque-container{
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: justify;
+    background: url(../assets/images/plaque-texture.jpg);
+      background-blend-mode: soft-light; /* Blends the image with the color/container */
+  background-size: cover;
+    background-color: var(--offwhite);
+    padding: 40px;
+    border-radius: 80px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+   box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.34),
+   inset 0px 4px 7px 2px rgba(255,251,251,0.34);
+}
+.my-story-plaque-container h2{
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 600;
+font-size: 30px;
+}
+.my-story-plaque-container span{
+    font-family: inter;
+    font-size: 14px;
+    color: var(--green);
+    font-weight: -600;
+    align-self: flex-start;
+}
 .hero_banner_container#portfolio{
     position: relative;
     background: url("../assets/images/Portfolio_Banner.jpg");
@@ -1457,12 +1497,16 @@ height: 115px;
         width: 100%;
         scale: 95%;
     }
+    .my-story-plaque-container{
+    scale: 85%;
+}
     footer #social-media-links{
         scale:80%;
     }
     footer #sitemap{
         scale:80%;
     }
+
 }
 @media(max-width:400px){
 
