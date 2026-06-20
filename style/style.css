@@ -1098,9 +1098,9 @@ section.my-story{
     width: 500px;
     text-align: justify;
     background: url(../assets/images/plaque-texture.jpg);
-      background-blend-mode: soft-light; /* Blends the image with the color/container */
+      background-blend-mode: multiply; /* Blends the image with the color/container */
   background-size: cover;
-    background-color: var(--offwhite);
+    background-color: var(--black);
     padding: 40px;
     border-radius: 80px;
     border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -1112,6 +1112,9 @@ section.my-story{
     color: var(--green);
     font-weight: 600;
 font-size: 30px;
+}
+.my-story-plaque-container p{
+    color: var(--white);
 }
 .my-story-plaque-container span{
     font-family: inter;
