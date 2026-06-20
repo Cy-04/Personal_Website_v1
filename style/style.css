@@ -606,7 +606,7 @@ max-height: 280px;
     transform: translateX(-100px);
 }
 .aboutMe-summary div.image-container .image-overlay{
-    background-color: var(--whiteOverlay);
+    background-color: rgba(227,227,237,0.5);
     position:absolute;
     width: 400px;
     height: 600px;
@@ -614,7 +614,7 @@ max-height: 280px;
     z-index: 1;
 }
 .aboutMe-summary div.image-container img{
-    transform: scaleX(-1);
+   
     width: 400px;
     height: 600px;
     border-radius: 8%;
