@@ -642,7 +642,8 @@ max-height: 280px;
     transition: 0.8s ease-in-out;
     padding: 20px;
     opacity: 0;
-}.aboutMe-summary div.txtIntroduction-container a{
+}
+.aboutMe-summary div.txtIntroduction-container a{
     transform: translateX(100px);
     transition: 0.8s ease-in-out;
     margin: 20px;
@@ -1122,9 +1123,190 @@ font-size: 30px;
     font-weight: -600;
     align-self: flex-start;
 }
+section .my-philosophy-and-beyond {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 0 80px 0;
+}
+.my-philosophy-and-beyond-row-container{
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+.my-philosophy-and-beyond-row-container .image-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    height: 600px;
+    transition: 0.8s ease-in-out;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.my-philosophy-and-beyond-row-container .image-container img{
+
+ width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops the image proportionally to fill the space */
+  object-position: center; /* Centers the image */
+}
+
+.my-philosophy-and-beyond-row-container .desc-container{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    max-width: 500px;  
+}
+.my-philosophy-and-beyond-row-container .desc-container h2{
+    
+    transition: 0.8s ease-in-out;
+    opacity: 1;
+}
+.my-philosophy-and-beyond-row-container .desc-container p{
+    
+    transition: 0.8s ease-in-out;
+    padding: 20px;
+    opacity: 1;
+}
+.how-i-build-container .skills-plaque-container{
+    padding: 80px 0 40px 0;
+}
+.how-i-build-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(../assets/images/Gallery_Albums/Centro-de-Turismo-Intramuros/IMG_9060.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    padding: 80px;
+    overflow: hidden;
+}
+.how-i-build .desc{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: -20px 0 20px 0;
+}
+.how-i-build p{
+    text-align: justify;
+    z-index: 10;
+}
+.how-i-build span{
+    font-family: inter;
+    font-size: 14px;
+    color: var(--green);
+    font-weight: -600;
+    align-self: flex-start;
+}
+.how-i-build h2{
+    margin-top: -20px;
+    text-decoration: underline;
+     z-index: 10;
+}
+.moving-forward-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    width: 100%;
+    padding: 0 0 80px 0;
+    margin: 40px 0 80px 0;
+}
+.moving-forward{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 10px 0 10px;
+}
+.moving-forward .desc{
+    color: var(--white);
+    text-align: justify;
+}
+.what-matters-to-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 150px 0;
+}
+.what-matters-to-me{
+    margin: 10px 0 0 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.what-matters-to-me .silver-plaque{
+    width: 200px;
+}
+.gold-plaque{
+    padding: 30px;
+    border-radius: 20px;
+   background: url(../assets/images/texture-gold-plaque.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: silver;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+   box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+}
+
+.silver-plaque{
+    padding: 10px 10px 40px 10px;
+    border-radius: 20px;
+   background: url(../assets/images/metal-plaque.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: silver;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+   box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.silver-plaque span{
+    font-size: 14px;
+    align-self: start;
+}
+.silver-plaque .quote{
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.silver-plaque h3.title{
+    text-decoration: underline;
+}
+.silver-plaque .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
 .hero_banner_container#portfolio{
     position: relative;
-    background: url("../assets/images/Portfolio_Banner.jpg");
+    background:  url("../assets/images/Portfolio_Banner.jpg");
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay) ;
     background-size: cover;
     background-position: center;
@@ -1137,6 +1319,7 @@ font-size: 30px;
     justify-content: center;
     align-items: center;
     gap: 30px;
+     z-index: 10;
 }
 .skills-plaque-container h2{
     font-size: 22px;
@@ -1240,7 +1423,7 @@ height: 115px;
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(236, 231, 231, 0.2);
+  background: rgba(236, 231, 231, 0.3);
   transition: background 1s ease;
   display: flex;
   align-items: flex-end;    /* pins text to bottom */
@@ -1298,6 +1481,11 @@ height: 115px;
     height: 115px;
     width: 50%;
 }
+.gallery-summary-button{
+    margin-top: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
 .hero_banner_container#gallery{
     position: relative;
     background: url("../assets/images/Gallery_Banner.jpg");
@@ -1305,11 +1493,6 @@ height: 115px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-.gallery-summary-button{
-    margin-top: 30px;
-    transition: 1s ease-in-out;
-    opacity: 0;
 }
 .hero_banner_container#contact{
     position: relative;
@@ -1572,6 +1755,9 @@ height: 115px;
     }
     footer #sitemap{
         scale:80%;
+    }
+    .how-i-build{
+        scale:75%;
     }
 
 }
