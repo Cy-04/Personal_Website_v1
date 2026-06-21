@@ -84,7 +84,7 @@ body{
 .btn-outline{
     font-size: 17px;
     background-color: var(--white);
-    padding: .7rem 1.5rem;
+    padding: .5rem 1.5rem;
     border: 2px solid var(--green);
     color:  var(--green);
     font-weight: bold;
@@ -1306,7 +1306,11 @@ height: 115px;
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.gallery-summary-button{
+    margin-top: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
 .hero_banner_container#contact{
     position: relative;
     background: url("../assets/images/Get_In_Touch_Banner.jpg");
