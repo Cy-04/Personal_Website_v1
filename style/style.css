@@ -1639,7 +1639,7 @@ height: 115px;
   align-items: center;
   flex-direction: column;
   padding: 10px;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(1px);
 }
 
 .collections-overlay-numberTag {
