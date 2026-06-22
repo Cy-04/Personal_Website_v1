@@ -45,15 +45,10 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin: 30px 100px 0 100px;
-  gap: 16px;
+  gap: 10px;
 }
 .grid-container div.grid{
-background-color: #27271F;
 position: relative;
-  background-color: var(--offwhite);
-  /*box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);*/
-  border: 0.5px solid rgba(255, 255, 255, 0.4);
-  border-radius: 40px;
 overflow: hidden;
 }
 /*========= Grid System end =========*/
@@ -1293,7 +1288,12 @@ section .my-philosophy-and-beyond {
     border: 1.5px solid rgba(255, 255, 255, 0.3);
    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
 }
-
+.plaque-line{
+   background-color: var(--green);
+   height: 1px;
+   width: 45%; 
+   margin: 5px 0 5px 0;
+}
 .silver-plaque{
     padding: 10px 10px 40px 10px;
     border-radius: 20px;
@@ -1302,10 +1302,10 @@ section .my-philosophy-and-beyond {
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: silver;
-    border: 1.5px solid rgba(255, 255, 255, 0.3);
-   box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+   box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.15);
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
    flex-direction: column;
 }
@@ -1321,6 +1321,7 @@ section .my-philosophy-and-beyond {
 }
 .silver-plaque h3.title{
     text-decoration: underline;
+    text-align: center;
 }
 .silver-plaque .details{
     display: flex;
@@ -1619,12 +1620,6 @@ height: 115px;
     padding: 3.5rem 5%;
     
 }
-.collections-image-title img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 
 .collections-overlay {
   position: absolute;
@@ -1635,13 +1630,18 @@ height: 115px;
   background: rgba(255, 255, 255, 0.4);
   transition: background 1s ease;
   display: flex;
-  align-items: flex-start;    /* pins text to bottom */
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   padding: 10px;
   backdrop-filter: blur(1px);
 }
-
+.overlay-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .collections-overlay-numberTag {
     align-self: flex-start;
   color: var(--black);
@@ -1660,7 +1660,7 @@ height: 115px;
   transition: opacity 1s ease;
 }
 .collections-overlay-title {
-    margin-top: 10px;
+    margin-top: 5px;
   font-family: Inter;
   color: var(--black);
   font-size: 1.2rem;
@@ -1668,6 +1668,7 @@ height: 115px;
   opacity: 1;
   transition: opacity 1s ease;
   text-align: center;
+  width: 100%;
 }
 .collections-overlay-titleAlt {
     margin-top: 10px;
@@ -1677,6 +1678,54 @@ height: 115px;
   letter-spacing: 0.05em;
   opacity: 1;
   transition: opacity 1s ease;
+}
+
+.collection-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.collection-container .collection{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5px;
+    margin: 10px;
+}
+.collection-container .collection .image-container{
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    height: 400px;
+}
+.collection-container .collection .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.collection-container .collection{
+margin: 5px;
+}
+.collection-title{
+    width: 95%;
+    margin:5px 10px 10px 10px;
+    padding-bottom: 25px;
+    height: 150px;
+}
+.collection-title h3.title{
+    margin-top: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.collection .collection-title .sub-title{
+    color: var(--green);
+    margin-top: 4px;
+    font-size: 16px;
+    text-align: center;
 }
 /*Gallery Page end */
 /*Get in Touch Page start */
@@ -1697,6 +1746,14 @@ height: 115px;
     position: relative;
     overflow: hidden;
     padding: 80px 0 80px 0;
+}
+.collections-container p.gallery-welcome{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: var(--green);
+    margin: 5px 0 80px 0;
 }
 /*Get in Touch Page end */
 
@@ -1748,6 +1805,9 @@ height: 115px;
 }
 }
 @media (max-width: 600px){
+    .overlay-title-container{
+        scale: 70%;
+    }
     .mainNav{
         padding: .5rem 3%;
     }
