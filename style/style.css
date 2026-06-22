@@ -50,6 +50,14 @@ body{
 .grid-container div.grid{
 position: relative;
 overflow: hidden;
+opacity: 0;
+transition: 1s ease-in-out;
+transform: translateX(100px);
+}
+.grid-container .reveal.active{
+opacity: 1;
+transition-delay: calc(0.5s * var(--i));
+transform: translateY(0);
 }
 /*========= Grid System end =========*/
 .section{
@@ -1706,6 +1714,12 @@ height: 115px;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 0.8s ease-in-out;
+}
+
+.collection .image-container img:hover{
+    scale: 105%;
+    cursor: pointer;
 }
 .collection-container .collection{
 margin: 5px;
@@ -1726,6 +1740,12 @@ margin: 5px;
     margin-top: 4px;
     font-size: 16px;
     text-align: center;
+}
+
+span.collection-date{
+    position: absolute;
+    font-size: 12px;
+align-self: flex-end;
 }
 /*Gallery Page end */
 /*Get in Touch Page start */
