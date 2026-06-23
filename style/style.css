@@ -36,7 +36,7 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin: 30px 100px 0 100px;
-  gap: 16px;
+  gap: 4px;
   justify-content: center;
   align-content: center;
 }
@@ -1219,6 +1219,9 @@ section .my-philosophy-and-beyond {
     padding: 80px;
     overflow: hidden;
 }
+.how-i-build.gold-plaque{
+    padding: 30px;
+}
 .how-i-build .desc{
      display: flex;
     justify-content: center;
@@ -1286,7 +1289,11 @@ section .my-philosophy-and-beyond {
     width: 200px;
 }
 .gold-plaque{
-    padding: 30px;
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+    padding: 10px;
     border-radius: 20px;
    background: url(../assets/images/texture-gold-plaque.jpg);
     background-position: center;
@@ -1651,7 +1658,7 @@ height: 115px;
     align-items: center;
 }
 .collections-overlay-numberTag {
-    align-self: flex-start;
+align-self: flex-start;
   color: var(--black);
   font-size: 0.7rem;
   letter-spacing: 0.05em;
@@ -1734,6 +1741,16 @@ margin: 5px;
     margin-top: 5px;
     text-decoration: none;
     letter-spacing: 1px;
+    text-align: center;
+    align-self: center
+}
+
+.collection-title h2.title{
+    margin-top: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    align-self: center;
 }
 .collection .collection-title .sub-title{
     color: var(--green);
@@ -1742,7 +1759,14 @@ margin: 5px;
     text-align: center;
 }
 
-span.collection-date{
+.collection-title.gold-plaque span.collection-number{
+    font-size: 15px;
+align-self: flex-start;
+}
+.collection-title.gold-plaque span.plaque-line{
+    align-self: flex-start;
+}
+.collection-title.gold-plaque span.collection-date{
     position: absolute;
     font-size: 12px;
 align-self: flex-end;
