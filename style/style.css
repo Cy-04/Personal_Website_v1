@@ -1746,13 +1746,13 @@ margin: 5px;
 }
 
 .collection-title h2.title{
-    margin-top: 5px;
+    margin-top: 10px;
     text-decoration: none;
     letter-spacing: 1px;
     text-align: center;
     align-self: center;
 }
-.collection .collection-title .sub-title{
+.collection-title .sub-title{
     color: var(--green);
     margin-top: 4px;
     font-size: 16px;
@@ -1761,7 +1761,7 @@ margin: 5px;
 
 .collection-title.gold-plaque span.collection-number{
     font-size: 15px;
-align-self: flex-start;
+    align-self: flex-start;
 }
 .collection-title.gold-plaque span.plaque-line{
     align-self: flex-start;
@@ -1769,9 +1769,63 @@ align-self: flex-start;
 .collection-title.gold-plaque span.collection-date{
     position: absolute;
     font-size: 12px;
-align-self: flex-end;
+    align-self: flex-end;
 }
 /*Gallery Page end */
+/*Collection Page Start*/
+.inner-collection-banner-container{
+    background-color: var(--black)
+}
+
+.inner-collection-banner-container .collection-title-container{
+background-color: var(--white);
+position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-bottom-right-radius: 160px;
+}
+.inner-collection-banner-container .collection-title{
+    width: 250px;
+    height: 150px;
+}
+.inner-collection-container{
+    padding: 80px;
+  background-color: var(--black);
+}
+.inner-collection-container .grid-container{
+    padding-bottom: 40px;
+}
+.prev-next-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.prev-next-navigation .arrow-left{
+transform: rotate(90deg);
+}
+.prev-next-navigation .arrow-right{
+    transform: rotate(270deg);
+}
+.prev-container,
+ .next-container{
+    display: flex;
+}
+.prev-container p,
+.next-container p,
+.current-container p{
+    font-family: inter;
+    font-size: 14px;
+    color: var(--green);
+}
+.current-container p{
+        font-family: 'Cormorant Garamond', serif;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+margin-top: 20px;
+}
+/*Collection Page End*/
 /*Get in Touch Page start */
 .hero_banner_getInTouch{
     position: relative;
