@@ -75,12 +75,12 @@
     buildStrip();
 
     nodes.forEach((img, i) => {
-       img.style.cursor = 'pointer';
-  img.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('clicked!');
-    openAt(i);
-  });
+      const trigger = img.closest('a, .gallery-item') || img;
+      trigger.style.cursor = 'pointer';
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        openAt(i);
+      });
     });
 
     closeBtn.addEventListener('click', close);
