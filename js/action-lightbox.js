@@ -1,5 +1,5 @@
 (function () {
-
+  
   const GALLERY_SELECTOR = '.collection-grid img'; // ← adjust to your selector
 
   const lightbox    = document.getElementById('lightbox');
@@ -9,13 +9,6 @@
   const prevBtn     = document.getElementById('lightboxPrev');
   const nextBtn     = document.getElementById('lightboxNext');
   const strip       = document.getElementById('lightboxStrip');
-
-  const trigger = img.closest('a, .collection-grid') || img;
-  trigger.addEventListener('click', (e) => {
-  e.preventDefault();
-  e.stopPropagation();
-  openAt(i);
-}); 
 
   let images  = [];
   let current = 0;
@@ -86,6 +79,7 @@
       trigger.style.cursor = 'pointer';
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
+        e.stopPropagation() 
         openAt(i);
       });
     });

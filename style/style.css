@@ -1978,6 +1978,9 @@ position:relative;
   opacity: 1;
   border-color: #fff;
 }
+.collection p{
+    cursor: pointer;
+}
 /*Collection Lightbox end*/
 /*Collection Page End*/
 /*Get in Touch Page start */
