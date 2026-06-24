@@ -1212,7 +1212,7 @@ section .my-philosophy-and-beyond {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(../assets/images/Gallery_Albums/Centro-de-Turismo-Intramuros/IMG_9060.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(https://assets.cyrinambos.net/Series-07/IMG_9060.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 100px;
