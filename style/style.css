@@ -86,6 +86,9 @@ transform: translateY(0);
     justify-content: center;
     align-items: center;
 }
+.h1{
+    font-size: 3.5rem;
+}
 .h2{
     font-size: 22px;
     text-transform: uppercase;
@@ -1576,7 +1579,7 @@ height: 115px;
     top: 25%;
     left: -350px;
 }
-.banner_header{
+.banner_header {
     font-size: 3.5rem;
     letter-spacing: 1.5rem;
     font-weight: 400;
