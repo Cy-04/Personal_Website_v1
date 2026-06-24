@@ -75,7 +75,7 @@
     buildStrip();
 
     nodes.forEach((img, i) => {
-      const trigger = img.closest('a, .gallery-item') || img;
+      const trigger = img.closest('button, .gallery-item') || img;
       trigger.style.cursor = 'pointer';
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
