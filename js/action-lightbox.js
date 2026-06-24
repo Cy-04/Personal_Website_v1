@@ -79,6 +79,7 @@
       trigger.style.cursor = 'pointer';
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
+         alert('clicked!');
         openAt(i);
       });
     });
