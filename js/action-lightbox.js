@@ -1,5 +1,5 @@
 (function () {
-  const GALLERY_SELECTOR = '.grid-container img'; // ← adjust to your selector
+  const GALLERY_SELECTOR = '.collection-grid img'; // ← adjust to your selector
 
   const lightbox    = document.getElementById('lightbox');
   const backdrop    = document.getElementById('lightboxBackdrop');
