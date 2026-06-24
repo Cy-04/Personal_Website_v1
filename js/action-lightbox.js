@@ -13,6 +13,7 @@
   const trigger = img.closest('a, .collection') || img;
   trigger.addEventListener('click', (e) => {
   e.preventDefault();
+  e.stopPropagation();
   openAt(i);
 }); 
 
