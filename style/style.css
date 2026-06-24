@@ -217,7 +217,7 @@ header .mainNav{
     border: 0.3px solid rgba(255,255,255,0.5);
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    z-index: 9999;
+    z-index: 99;
     animation: expand_mainNav 1s ease-out 1s forwards;
     overflow: hidden;
     opacity: 0;
@@ -1773,6 +1773,14 @@ margin: 5px;
 }
 /*Gallery Page end */
 /*Collection Page Start*/
+.hero_banner_container#hero-collection04{
+    background: url("../assets/images/Gallery_Albums/Museo-del-Galeon/IMG_8271_optimized.jpg");
+    /*box-shadow: inset 0 0 0 2000px var(--whiteOverlay) */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .inner-collection-banner-container{
     background-color: var(--black)
 }
@@ -1825,6 +1833,132 @@ font-size: 20px;
 font-weight: bold;
 margin-top: 20px;
 }
+.inner-collection-banner-container .collection-title-container#collection-title-04{
+background-color: var(--white);
+position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    border-radius: 0;
+}
+/*Collection Lightbox start*/
+.lightbox {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  height: 100vh;
+  flex-direction: column; /* stack stage + strip vertically */
+  background-color: rgba(39,39,35,0.99);
+  gap: 0.75rem;
+  padding: 2.5rem 1rem 1rem;
+  opacity: 0;
+  position: fixed;
+  z-index: 0;
+  transition: 1s ease-in-out;
+}
+.lightbox.is-open{
+    opacity: 1;
+    z-index: 999;
+}
+.lightbox__stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 0.5rem;
+  min-height: 0; /* important for flex shrinking */
+  transition:0.5s ease-in-out;
+}
+.lightbox__nav--next,
+.lightbox__nav--prev,
+.lightbox__close{
+    scale: 80%;
+    background: none;
+    border: none;
+}
+.lightbox__close{
+    position: absolute;
+    top:10%;
+    right: 0;
+    color: var(--white);
+    font-size: 30px;
+    transition: 1s ease-in-out;
+    align-self: flex-end;
+}
+
+.lightbox__close:hover{
+    color: var(--green);
+    scale: 105%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.lightbox__nav--next{
+    transform: rotate(270deg);
+}
+
+.lightbox__nav--prev{
+    transform: rotate(90deg);
+}
+.lightbox__content {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox__img {
+    padding-top: 50px;
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  user-select: none;
+}
+
+/* Thumbnail strip */
+.lightbox__strip {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 4px 0;
+  max-width: 90vw;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(46,139,87,0.3) transparent;
+  flex-shrink: 0;
+}
+
+.lightbox__strip::-webkit-scrollbar {
+  height: 4px;
+}
+.lightbox__strip::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+}
+
+.lightbox__thumb {
+  width: 64px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.55;
+  border: 2px solid transparent;
+  transition: opacity 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+
+.lightbox__thumb:hover {
+  opacity: 0.85;
+}
+
+.lightbox__thumb.is-active {
+  opacity: 1;
+  border-color: #fff;
+}
+/*Collection Lightbox end*/
 /*Collection Page End*/
 /*Get in Touch Page start */
 .hero_banner_getInTouch{
