@@ -10,7 +10,7 @@
   const nextBtn     = document.getElementById('lightboxNext');
   const strip       = document.getElementById('lightboxStrip');
 
-  const trigger = img.closest('a, .collection') || img;
+  const trigger = img.closest('a, .collection-grid') || img;
   trigger.addEventListener('click', (e) => {
   e.preventDefault();
   e.stopPropagation();
