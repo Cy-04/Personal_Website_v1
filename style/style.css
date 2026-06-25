@@ -1840,6 +1840,13 @@ transform: rotate(90deg);
 .prev-next-navigation .arrow-right{
     transform: rotate(270deg);
 }
+.prev-next-navigation .arrow-up{
+    transform: rotate(180deg);
+margin-bottom: 40px;
+}
+.prev-next-navigation #back-to-top{
+    margin-top: 40px;
+}
 .prev-container,
  .next-container{
     display: flex;
@@ -1850,6 +1857,9 @@ transform: rotate(90deg);
     font-family: inter;
     font-size: 14px;
     color: var(--green);
+}
+.next-container p.bottom{
+    padding-top:20px;
 }
 .current-container p{
         font-family: 'Cormorant Garamond', serif;
