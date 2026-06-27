@@ -20,8 +20,15 @@
         <script defer src="../../js/main.js"></script>
         <script defer src="../../js/hide_and_show_nav_while_scrolling.js"></script>
         <script defer src="../../js/hide_and_show_nav_on_mobile.js"></script>
+        <script defer src="/js/action-lightbox.js"></script>
+        <script defer src="/js/components.js"></script>
     </head>
     <body>
+          <!--Collection lightbox start-->
+          <div id="lightbox-container">
+            <!--Load Lightbox component here-->
+          </div>
+            <!--Collection lightbox end-->
         <!--Main Navigation-->
         <header>
             <div class="mainNav" id="mainNav">
@@ -50,25 +57,12 @@
             </div>
         </header>
         <div class="container">
-            <!--Collection lightbox start-->
-            <div id="lightbox" class="lightbox" aria-modal="true" role="dialog" aria-label="Image viewer">
-                <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
-                <div class="lightbox__stage">
-                    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></button>
-                    <div class="lightbox__content">
-                    <img class="lightbox__img" id="lightboxImg" src="" alt="">
-                    </div>
-                    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></button>
-                </div>
-                <div class="lightbox__strip" id="lightboxStrip"></div>
-            </div>
-            <div id="lightboxBackdrop" class="lightbox__backdrop"></div>
-            <!--Collection lightbox end-->
+          
             <section class="inner-collection-banner-container" id="">
 <div class="collection-title-container">
                 <!--Gold Plaque for Collection title start-->
                         <div class="collection-title gold-plaque">
-                            <span class="collection-number">Col. 04</span>
+                            <span class="collection-number">Collection IV</span>
                             <span class="plaque-line"></span>
                             <span class="collection-date"></span>
                             <h2 class="title">Sunsets</h2>
@@ -86,15 +80,15 @@
                 <div class="prev-next-navigation">
                     <div class="prev-container">
                         <div class="arrow-left prev">
-                        <a href="/pages/gallery.html"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
+                        <a href="/pages/collections/col-3-all-things-sky.html"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
                         
                     </div>
-                    <p>Col. 03</p>
+                    <p>Collection III</p>
                     </div>
                     <div class="next-container">
-                        <p>Col. 05</p>
+                        <p>Collection V</p>
                         <div class="arrow-right next">
-                            <a href=""><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
+                            <a href="/pages/collections/col-3-all-things-sky.html"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +101,7 @@
                      <div class="collection">
                         <div class="image-container">
                             <a href="">
-                                <img  src="https://assets.cyrinambos.net/col-22/IMG_8271_optimized.jpg">
+                                <img  src="https://assets.cyrinambos.net/col-4/L00.jpg">
                             </a>
                             
                         </div>
@@ -116,14 +110,12 @@
                 </div>
                 <!--Grid Card End-->
                 
-            </div>
-            <div class="grid-portrait ">
-                <!--Grid Card Start-->
-                <div class="grid collection-container reveal"  style="--i:0">
+<!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0.5">
                      <div class="collection">
                         <div class="image-container">
                             <a href="">
-                                <img  src="https://assets.cyrinambos.net/col-1/IMG_1005.jpg">
+                                <img  src="https://assets.cyrinambos.net/col-4/L1.jpg">
                             </a>
                             
                         </div>
@@ -131,14 +123,485 @@
                     </div>
                 </div>
                 <!--Grid Card End-->
-                 
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L2.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L3.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L5.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L6.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L7.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L8.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L9.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L10.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L11.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L12.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L13.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L14.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L15.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                  <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/L16.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+            </div>
+            <div class="grid-portrait ">
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/01.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/02.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/03.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/04.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/05.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/06.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/07.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/08.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/09.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/10.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/11.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/12.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/13.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/14.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/15.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/16.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/17.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/18.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.3">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/19.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:1.5">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/20.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
+                
+                <!--Grid Card Start-->
+                <div class="grid collection-container reveal"  style="--i:0">
+                     <div class="collection">
+                        <div class="image-container">
+                            <a href="">
+                                <img  src="https://assets.cyrinambos.net/col-4/21.jpg">
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Grid Card End-->
             </div>
             
             </div>
             
             <!--Collection Grid End-->
             <!--Next Collection and Previous Collection Navigation Start-->
-                <div class="prev-next-navigation">
+                <div class="bottom-prev-next-navigation">
                     <div class="prev-container">
                         <div class="arrow-up back-to-top">
                         <a href="#collection-gallery"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
@@ -147,9 +610,9 @@
                     <p id="back-to-top">Back to Top</p>
                     </div>
                     <div class="next-container">
-                        <p class="bottom">Col. 05</p>
+                        <p class="bottom">Collection V</p>
                         <div class="arrow-right next">
-                            <a href=""><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
+                            <a href="/pages/collections/col-4-sunsets.html"><img class="hero_banner_arrow" src="../../assets/images/icons/arrow-down-solid.svg" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
@@ -191,6 +654,5 @@
             </div>
         </footer>
         
-        <script defer src="/js/action-lightbox.js"></script>
     </body>
 </html>
