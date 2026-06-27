@@ -1823,7 +1823,7 @@ position:relative;
     background: url('https://assets.cyrinambos.net/col-4/hero-banner.jpg');
     background-size: cover;
 background-color: var(--white);
-background-position: left;
+background-position: center;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 
