@@ -1,6 +1,6 @@
-(function () {
+function initLightbox(gallery_selector) {
   
-  const GALLERY_SELECTOR = '.collection-grid img'; // ← adjust to your selector
+  const GALLERY_SELECTOR = gallery_selector; // ← adjust to your selector
 
   const lightbox    = document.getElementById('lightbox');
   const backdrop    = document.getElementById('lightboxBackdrop');
@@ -147,9 +147,5 @@ function toggleZoom() {
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-})();
+ init();
+}
