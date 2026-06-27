@@ -1807,7 +1807,7 @@ margin: 5px;
 }
 
 .inner-collection-banner-container{
-    background-color: var(--black)
+    background-color: var(--black);
 }
 
 .inner-collection-banner-container .collection-title-container{
@@ -1824,7 +1824,7 @@ position:relative;
     background-size: cover;
 background-color: var(--white);
 background-position: left;
-    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) 
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 
 .inner-collection-banner-container .collection-title-container.collection-3{
@@ -1832,14 +1832,14 @@ background-position: left;
     background-size: cover;
 background-color: var(--white);
 background-position: center;
-    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) 
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 .inner-collection-banner-container .collection-title-container.collection-2{
     background: url('https://assets.cyrinambos.net/col-2/hero-banner.jpg');
     background-size: cover;
 background-color: var(--white);
 background-position: center;
-    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) 
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 .inner-collection-banner-container .collection-title{
     width: 250px;
