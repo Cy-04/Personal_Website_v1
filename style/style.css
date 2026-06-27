@@ -1811,6 +1811,7 @@ margin: 5px;
 }
 
 .inner-collection-banner-container .collection-title-container{
+    background-color: var(--white);
 position:relative;
     display: flex;
     justify-content: center;
