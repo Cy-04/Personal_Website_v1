@@ -10,7 +10,7 @@
     --green: #2E8B57;
     --solidGreen: #006400;
     --white: #E5E5EF;
-    --whiteOverlay: rgba(227,227,237,0.4);
+    --whiteOverlay: rgba(227,227,237,0.3);
     --offwhite: #EFF0E9;
 }
 html{
@@ -1811,13 +1811,19 @@ margin: 5px;
 }
 
 .inner-collection-banner-container .collection-title-container{
-background-color: var(--white);
 position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 99vh;
     border-bottom-right-radius: 160px;
+}
+.inner-collection-banner-container .collection-title-container.collection-4{
+    background: url('https://assets.cyrinambos.net/col-4/L00.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay) 
 }
 .inner-collection-banner-container .collection-title{
     width: 250px;
