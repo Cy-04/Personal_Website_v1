@@ -1796,6 +1796,13 @@ margin: 5px;
     font-size: 12px;
     align-self: flex-end;
 }
+
+.collection-title.gold-plaque span.number-of-photo{
+    font-size: 13px;
+    align-self: flex-start;
+    color: var(--green);
+    margin-top: -5px;
+}
 /*Gallery Page end */
 /*Collection Page Start*/
 .hero_banner_container#hero-collection04{
@@ -1927,7 +1934,7 @@ position:relative;
   opacity: 0;
   position: fixed;
   z-index: 0;
-  transition: 1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .lightbox.is-open{
     opacity: 1;
