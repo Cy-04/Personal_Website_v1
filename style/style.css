@@ -1795,6 +1795,7 @@ margin: 5px;
     position: absolute;
     font-size: 12px;
     align-self: flex-end;
+    line-height: 10px;
 }
 
 .collection-title.gold-plaque span.number-of-photo{
