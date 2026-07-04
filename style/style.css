@@ -2478,7 +2478,7 @@ position:relative;
 @media (max-width: 700px){
 
 .grid-2-portrait-1-landscape{
-  grid-template-columns: 500px;
+  grid-template-columns: 350px;
   margin: 30px 100px -30px 100px;
   
 }
@@ -2491,7 +2491,7 @@ position:relative;
 
   }
   .grid-2-portrait-1-landscape-reverse{
-  grid-template-columns: 500px;
+  grid-template-columns: 350px;
   margin: 30px 100px -30px 100px;
   
 }
@@ -2504,7 +2504,7 @@ position:relative;
 
   }
 .grid-portrait{
-    grid-template-columns: 500px;
+    grid-template-columns: 350px;
 }
 .grid-2-portrait-1-landscape .grid .collection,
 .grid-2-portrait-1-landscape-reverse .grid .collection,
@@ -2518,9 +2518,5 @@ position:relative;
 }
 @media (max-width: 600px){
 
-.grid-2-portrait-1-landscape{
-display: grid;
-  grid-template-columns: 1fr;
-}
 
 }
