@@ -40,40 +40,101 @@ body{
   justify-content: center;
   align-content: center;
 }
+
+/*GRID FOR GALLERY ITEMS WITH AN ALL PORTRAIT PHOTOS*/
 .grid-portrait{
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 30px 100px 0 100px;
+  margin: 30px 100px -30px 100px;
   gap: 1px;
   justify-content: center;
   align-content: center;
 }
+
+/*GRID FOR GALLERY ITEMS WITH AN ALL LANDSCAPE PHOTOS*/
 .grid-landscape{
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  margin: 30px 100px 0 100px;
+  margin: 30px 100px -30px 100px;
   gap: 1px;
   justify-content: center;
   align-content: center;
 }
-.grid-container-with-left-highlight {
+
+/*GRID FOR GALLERY ITEMS WITH A RIGHT LANDSCAPE*/
+.grid-2-portrait-1-landscape{
+display: grid;
+  grid-template-columns: 270px 270px 1fr;
+  margin: 30px 100px -30px 100px;
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+}
+
+/*GRID FOR GALLERY ITEMS WITH A LEFT LANDSCAPE*/
+.grid-2-portrait-1-landscape-reverse{
+display: grid;
+  grid-template-columns: 1fr 270px 270px;
+  margin: 30px 100px -30px 100px;
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+}
+/*GRID FOR GALLERY ITEMS WITH A MIDDLE LANDSCAPE*/
+.grid-2-portrait-1-middle-landscape{
+    
+display: grid;
+  grid-template-columns: 270px 1fr 270px;
+  margin: 30px 100px -30px 100px;
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+}
+
+/*GRID FOR GALLERY ITEMS WITH 1 PORTRAIT AND 1 RIGHT LANDSCAPE*/
+.grid-1-portrait-1-right-landscape{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 30px 100px 0 100px;
-  gap: 10px;
+  grid-template-columns: 270px 500px;
+  margin: 30px 100px -30px 100px;
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+}
+
+/*GRID FOR GALLERY ITEMS WITH 1 PORTRAIT AND 1 LEFT LANDSCAPE*/
+.grid-1-portrait-1-left-landscape{
+  display: grid;
+  grid-template-columns: 500px 270px;
+  margin: 30px 100px -30px 100px;
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
 }
 .grid-container div.grid,
 .grid-portrait div.grid,
-.grid-landscape div.grid{
+.grid-landscape div.grid,
+.grid-2-portrait-1-landscape div.grid,
+.grid-2-portrait-1-landscape-reverse div.grid,
+.grid-2-portrait-1-middle-landscape div.grid,
+.grid-1-portrait-1-left-landscape div.grid,
+.grid-1-portrait-1-right-landscape div.grid{
 position: relative;
 overflow: hidden;
 opacity: 0;
 transition: 0.8s ease-in-out;
 transform: translateX(100px);
 }
+
 .grid-container .reveal.active,
 .grid-portrait .reveal.active,
-.grid-landscape .reveal.active{
+.grid-landscape .reveal.active,
+.grid-2-portrait-1-landscape .reveal.active,
+.grid-2-portrait-1-landscape-reverse .reveal.active,
+.grid-2-portrait-1-middle-landscape .reveal.active,
+.grid-1-portrait-1-left-landscape .reveal.active,
+.grid-1-portrait-1-right-landscape .reveal.active{
 opacity: 1;
 transition-delay: calc(0.5s * var(--i));
 transform: translateY(0);
@@ -1828,6 +1889,13 @@ position:relative;
     border-bottom-right-radius: 160px;
 }
 
+.inner-collection-banner-container .collection-title-container.collection-15{
+    background: url('https://assets.cyrinambos.net/col-15/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-13{
     background: url('https://assets.cyrinambos.net/col-13/hero-banner.jpg');
     background-size: cover;
@@ -1895,7 +1963,7 @@ background-position: center;
     justify-content: space-between;
 }
 .bottom-prev-next-navigation{
-    margin-top: 15px;
+    margin-top: 60px;
 }
 .prev-next-navigation .arrow-left,
 .bottom-prev-next-navigation .arrow-left{
@@ -2313,7 +2381,7 @@ position:relative;
 
 .prev-next-navigation,
 .bottom-prev-next-navigation {
-    margin: 0 -40px;
+    margin: 60px -40px;
 }
 .grid-landscape .grid .collection{
     width: 350px;
@@ -2362,6 +2430,97 @@ position:relative;
     margin: auto;
     top: -15%;
     left:0;
+}
+
+}
+/*=================== GRID BREAK POINTS ===================*/
+/*=========   Desktop    =========*/
+
+/*=========   Tablet     =========*/
+@media (max-width: 992px) {
+  .grid-2-portrait-1-landscape {
+    grid-template-columns: 1fr 1fr ; /* Switch to 1 column for tablet/mobile */
+
+  margin: 30px 50px -30px 50px;
+  }
+  .grid-2-portrait-1-landscape > :nth-child(3){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+
+  }
+  .grid-2-portrait-1-landscape-reverse {
+    grid-template-columns:1fr 1fr ; /* Switch to 1 column for tablet/mobile */
+
+  margin: 30px 50px -30px 50px;
+  }
+  .grid-2-portrait-1-landscape-reverse > :nth-child(1){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+  }
+  
+  .grid-2-portrait-1-middle-landscape {
+    grid-template-columns:1fr; /* Switch to 1 column for tablet/mobile */
+
+  margin: 30px 50px -30px 50px;
+  }
+  
+  .grid-1-portrait-1-right-landscape {
+    grid-template-columns:1fr; /* Switch to 1 column for tablet/mobile */
+
+  margin: 30px 50px -30px 50px;
+  }
+  
+  .grid-1-portrait-1-left-landscape {
+    grid-template-columns:1fr; /* Switch to 1 column for tablet/mobile */
+
+  margin: 30px 50px -30px 50px;
+  }
+}
+/*=========   Mobile     =========*/
+@media (max-width: 700px){
+
+.grid-2-portrait-1-landscape{
+  grid-template-columns: 500px;
+  margin: 30px 100px -30px 100px;
+  
+}
+ .grid-2-portrait-1-landscape > :nth-child(1){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+
+  }
+   .grid-2-portrait-1-landscape > :nth-child(2){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+
+  }
+  .grid-2-portrait-1-landscape-reverse{
+  grid-template-columns: 500px;
+  margin: 30px 100px -30px 100px;
+  
+}
+ .grid-2-portrait-1-landscape-reverse > :nth-child(2){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+
+  }
+   .grid-2-portrait-1-landscape-reverse > :nth-child(3){
+    grid-column: 1/3 ; /* Switch to 1 column for tablet/mobile */
+
+  }
+.grid-portrait{
+    grid-template-columns: 500px;
+}
+.grid-2-portrait-1-landscape .grid .collection,
+.grid-2-portrait-1-landscape-reverse .grid .collection,
+.grid-2-portrait-1-middle-landscape .grid .collection,
+.grid-1-portrait-1-right-landscape .grid .collection,
+.grid-1-portrait-1-left-landscape .grid .collection
+{
+    width: 350px;
+}
+
+}
+@media (max-width: 600px){
+
+.grid-2-portrait-1-landscape{
+display: grid;
+  grid-template-columns: 1fr;
 }
 
 }
