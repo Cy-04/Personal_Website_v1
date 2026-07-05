@@ -1186,6 +1186,7 @@ footer #footer-copyright-container p{
     transition: 0.5s ease;
     border-bottom-right-radius: 220px;
     
+    animation: fadeIn 1s ease-in forwards;
 }
 .hero_banner_container#about{
     background: url("../assets/images/About_Me_Banner.jpg");
@@ -1890,6 +1891,13 @@ position:relative;
 
 }
 
+.inner-collection-banner-container .collection-title-container.collection-17{
+    background: url('https://assets.cyrinambos.net/col-17/30L.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-16{
     background: url('https://assets.cyrinambos.net/col-16/hero-banner.jpg');
     background-size: cover;
