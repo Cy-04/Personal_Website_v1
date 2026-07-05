@@ -1891,6 +1891,20 @@ position:relative;
 
 }
 
+.inner-collection-banner-container .collection-title-container.collection-19{
+    background: url('https://assets.cyrinambos.net/col-19/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-18{
+    background: url('https://assets.cyrinambos.net/col-18/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-17{
     background: url('https://assets.cyrinambos.net/col-17/30L.jpg');
     background-size: cover;
