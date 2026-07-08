@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://cyrinambos.net/</loc>
+  <lastmod>2026-07-08T17:21:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/index.html</loc>
+  <lastmod>2026-07-08T17:21:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/about.html</loc>
+  <lastmod>2026-07-08T17:21:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/portfolio.html</loc>
+  <lastmod>2026-07-08T17:21:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/gallery.html</loc>
+  <lastmod>2026-07-08T17:21:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/contact.html</loc>
+  <lastmod>2026-07-08T17:21:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-1-little-life.html</loc>
+  <lastmod>2026-07-08T17:21:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-2-random-moments-of-a-day.html</loc>
+  <lastmod>2026-07-08T17:21:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-3-all-things-sky.html</loc>
+  <lastmod>2026-07-08T17:21:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-4-sunsets.html</loc>
+  <lastmod>2026-07-08T17:21:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-5-cafes.html</loc>
+  <lastmod>2026-07-08T17:21:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-6-sacred-spaces.html</loc>
+  <lastmod>2026-07-08T17:21:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-7-model-kits-and-other-creations.html</loc>
+  <lastmod>2026-07-08T17:21:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-8-ccp.html</loc>
+  <lastmod>2026-07-08T17:21:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-9-stilts.html</loc>
+  <lastmod>2026-07-08T17:21:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-10-bag-of-beans.html</loc>
+  <lastmod>2026-07-08T17:21:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-11-bgc.html</loc>
+  <lastmod>2026-07-08T17:21:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-12-novotel.html</loc>
+  <lastmod>2026-07-08T17:21:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-13-stroll-in-makati.html</loc>
+  <lastmod>2026-07-08T17:21:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-14-petals-in-pause.html</loc>
+  <lastmod>2026-07-08T17:21:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-15-a-loop-through-manila.html</loc>
+  <lastmod>2026-07-08T17:21:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-16-camaya-coast.html</loc>
+  <lastmod>2026-07-08T17:21:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-17-a-walk-chasing-clouds.html</loc>
+  <lastmod>2026-07-08T17:21:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-18-quiet-evenings.html</loc>
+  <lastmod>2026-07-08T17:21:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-19-closed-silence.html</loc>
+  <lastmod>2026-07-08T17:21:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-20-intramuros.html</loc>
+  <lastmod>2026-07-08T17:21:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cyrinambos.net/pages/collections/col-21-lines-and-a-quiet-space.html</loc>
+  <lastmod>2026-07-08T17:21:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
