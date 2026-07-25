@@ -2601,7 +2601,7 @@ position:relative;
     grid-template-columns: 350px;
 }
 .grid-portrait{
-    grid-template-columns: 300px;
+    grid-template-columns: 270px;
 }
 
 .grid-2-portrait-1-landscape .grid .collection,
