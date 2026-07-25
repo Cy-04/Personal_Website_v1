@@ -643,7 +643,9 @@ max-height: 280px;
     display: flex;
     width: 390px;
     align-items: end;
-    justify-content: center;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
 }
 .hero_banner_arrow_down{
     display: block;
@@ -675,13 +677,38 @@ max-height: 280px;
 .btn_view_portfolio{
     position: relative;
     font-size: 18px;
-    color: var(--phtaloGreen);
+    color: var(--white);
     font-weight: bold;
-    padding: .5rem 2.5rem;
-    border: 3px solid var(--phtaloGreen);
+    padding: .6rem 2rem;
+    background-color: var(--phtaloGreen);
     border-radius: 10px;
     opacity: 0;
     animation: slideFromAbove 1s ease-in 5s forwards;
+}
+.btn-link{
+    color: var(--green);
+    font-weight: bolder;
+    position: relative;
+    font-size: 18px;
+    padding: .6rem 2rem;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    animation: slideFromAbove 1s ease-in 5s forwards;
+}
+
+.btn-link:hover{
+    color: var(--phtaloGreen);
+    text-decoration: underline;
+}
+.hero_banner_callToAction p{
+    opacity: 0;
+    animation: slideFromAbove 0.5s ease-in 5s forwards;
+}
+.margin-top-s{
+    margin-top:15px;
+}
+.marign-bottom-s{
+    margin-bottom: 15px;
 }
 .view_portfolio_container{
     position: relative;
