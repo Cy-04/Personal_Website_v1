@@ -173,7 +173,7 @@ transform: translateY(0);
     height: 3px;
     width: 475px;
     border-radius: 1.5px;
-    background-color: #2E8B57;
+    background-color: var(--phtaloGreen);
     margin: 15px auto;
 }
 .btn-primary{
@@ -196,16 +196,15 @@ transform: translateY(0);
 
 .btn-outline{
     font-size: 17px;
-    background-color: var(--white);
     padding: .5rem 1.5rem;
-    border: 2px solid var(--green);
-    color:  var(--green);
+    border: 2px solid var(--phtaloGreen);
+    color:  var(--phtaloGreen);
     font-weight: bold;
     border-radius: 10px;
 }
 
 .btn-outline:hover{
- background-color: var(--green);   
+ background-color: var(--phtaloGreen);   
  scale: 1.05;
  color: var(--white);
  transition: .3s ease-in-out;
@@ -1166,7 +1165,7 @@ footer #footer-links-container #sitemap li:hover{
     text-decoration: underline;
 }
 footer #footer-copyright-container{
-    background-color: var(--black);
+    background-color: var(--phtaloGreen);
     display: flex;
     justify-content: center;
 }
