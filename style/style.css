@@ -284,6 +284,7 @@ header .mainNav{
 .mainNav li, a{
     list-style: none;
     text-decoration: none;
+    color: var(--phtaloGreen)
 }
 .mainNav{
     padding: .5rem 5%;
