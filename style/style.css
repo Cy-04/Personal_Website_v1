@@ -1446,6 +1446,7 @@ section .my-philosophy-and-beyond {
     font-size: 14px;
 }
 .silver-plaque h3.title{
+    color: var(--phtaloGreen);
     text-decoration: underline;
     text-align: center;
 }
@@ -1513,6 +1514,7 @@ section .my-philosophy-and-beyond {
 }
 .plaque h3{
     text-decoration: underline;
+    color: var(--phtaloGreen);
 }
 .plaque .details{
     display: flex;
@@ -1854,6 +1856,7 @@ margin: 5px;
     height: 150px;
 }
 .collection-title h3.title{
+    color: var(--phtaloGreen);
     margin-top: 5px;
     text-decoration: none;
     letter-spacing: 1px;
