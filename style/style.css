@@ -9,6 +9,7 @@
     --black: #27271F;
     --green: #2E8B57;
     --solidGreen: #006400;
+    --phtaloGreen: #063f37;
     --white: #E5E5EF;
     --whiteOverlay: rgba(227,227,237,0.3);
     --offwhite: #EFF0E9;
@@ -366,7 +367,7 @@ transition: 0.3s ease-in;
 .btn-get-in-touch:hover{
     cursor:pointer;
     transition: 0.3s ease-in;
-    background-color: var(--solidGreen);
+    background-color: var(--phtaloGreen);
 }
 .logo-container{
     width: 202.21px;
@@ -459,7 +460,7 @@ max-height: 280px;
         opacity:0;
         font-size: 70px;
         font-weight: 600;
-        color: var(--black);
+        color: var(--phtaloGreen);
         animation: fadeIn 1.5s linear forwards;
         animation-delay: 1s;
     }
@@ -477,7 +478,7 @@ max-height: 280px;
         width: 0;
         margin-top: 66px;
         margin-left: -5px;
-        background-color: var(--black);
+        background-color: var(--phtaloGreen);
         animation: drawline 1s linear 2.5s forwards;
     }
     @keyframes drawline{
@@ -492,11 +493,11 @@ max-height: 280px;
     }
 .drawing-circle {
   fill: none; /* Make the circle transparent inside */
-  stroke: var(--black); /* Color of the circle's outline */
+  stroke: var(--phtaloGreen); /* Color of the circle's outline */
   stroke-width: 2; /* Thickness of the outline */
   stroke-dasharray: 565.48; /* Approximate circumference (2 * PI * r) */
   stroke-dashoffset: 565.48; /* Initially hide the stroke */
-  animation: drawCircle 6s linear forwards; /* Apply the animation */
+  animation: drawCircle 3s linear forwards; /* Apply the animation */
 }
 .hero_banner_firstName .drawing-circle{
     animation-delay: 3.5s;
@@ -527,7 +528,7 @@ max-height: 280px;
         width: 0px;
         margin-top: 17.5px;
         margin-left: -15px;
-        background-color: var(--black);
+        background-color: var(--phtaloGreen);
         animation: drawline 1s linear 2.5s forwards;
     }
 .hero_banner_lastName h1{
@@ -536,7 +537,7 @@ max-height: 280px;
         font-size: 70px;
         font-weight: 600;
         margin-left: -19px;
-        color: var(--black);
+        color: var(--phtaloGreen);
         overflow: hidden;
         animation: fadeIn 1.5s linear forwards;
         animation-delay: 3.5s;
@@ -674,11 +675,10 @@ max-height: 280px;
 .btn_view_portfolio{
     position: relative;
     font-size: 18px;
-    color: var(--green);
+    color: var(--phtaloGreen);
     font-weight: bold;
     padding: .5rem 2.5rem;
-    background-color: var(--white);
-    border: 3px solid var(--green);
+    border: 3px solid var(--phtaloGreen);
     border-radius: 10px;
     opacity: 0;
     animation: slideFromAbove 1s ease-in 5s forwards;
@@ -690,7 +690,7 @@ max-height: 280px;
 }
 .btn_view_portfolio:hover{
     cursor: pointer;
-    color: var(--white);
+    color: var(--phtaloGreen);
     background-color: var(--green);
     transition: 0.3s ease-in-out;
 }
