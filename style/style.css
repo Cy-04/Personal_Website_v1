@@ -35,7 +35,7 @@ body{
 /*========= Grid System start =========*/
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   margin: 30px 100px 0 100px;
   gap: 4px;
   justify-content: center;
@@ -45,7 +45,7 @@ body{
 /*GRID FOR GALLERY ITEMS WITH AN ALL PORTRAIT PHOTOS*/
 .grid-portrait{
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   margin: 30px 100px -30px 100px;
   gap: 1px;
   justify-content: center;
