@@ -1473,6 +1473,13 @@ section .my-philosophy-and-beyond {
     text-decoration: underline;
     text-align: center;
 }
+
+.silver-plaque h1.title{
+    margin-top: 8px;
+    color: var(--phtaloGreen);
+    text-align: center;
+letter-spacing: 1px;
+}
 .silver-plaque .details{
     display: flex;
     flex-direction: column;
@@ -1888,6 +1895,14 @@ margin: 5px;
 }
 
 .collection-title h2.title{
+    margin-top: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    align-self: center;
+}
+
+.collection-title h1.title{
     margin-top: 8px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -2598,7 +2613,7 @@ position:relative;
 
   }
 .grid-portrait{
-    grid-template-columns: 270px;
+    grid-template-columns: 250px;
 }
 .grid-2-portrait-1-landscape .grid .collection,
 .grid-2-portrait-1-landscape-reverse .grid .collection,
@@ -2632,19 +2647,15 @@ position:relative;
     grid-template-columns: 350px;
 }
 .grid-portrait{
-    grid-template-columns: 270px;
+    grid-template-columns: 250px;
 }
 
 .grid-2-portrait-1-landscape .grid .collection,
 .grid-2-portrait-1-landscape-reverse .grid .collection,
 .grid-2-portrait-1-middle-landscape .grid .collection,
 .grid-1-portrait-1-right-landscape .grid .collection,
-.grid-1-portrait-1-left-landscape .grid .collection,
-.grid .collection
+.grid-1-portrait-1-left-landscape .grid .collection
 {
     width: 350px;
-}
-.grid-portrait{
-    width: 270px;
 }
 }
