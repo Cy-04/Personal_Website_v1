@@ -41,7 +41,13 @@ body{
   justify-content: center;
   align-content: center;
 }
-
+.text-center{
+    align-self: center;
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
 /*GRID FOR GALLERY ITEMS WITH AN ALL PORTRAIT PHOTOS*/
 .grid-portrait{
     display: grid;
@@ -1767,6 +1773,166 @@ height: 115px;
     justify-content: center;
     padding: .5rem 5%;
 }
+.section-projects{
+    margin: 50px 0 100px 0;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-header-subtitle{
+    margin-top: -35px;
+}
+.project-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    gap: 20px;
+}
+.project-card-container p{
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 15px;
+}
+.project-image-collage-container{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    gap:8px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.image-card-1{
+    height: 400px;
+}
+.image-card-2{
+    height: 100px;
+}
+
+.image-card-3{
+    height: 100px;
+}
+.image-card-1 img,
+.image-card-2 img,
+.image-card-3 img,
+.image-card-4 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+}
+.project-image-collage-container .image-card-1{
+    grid-row: 1/5;
+    grid-column: 1;
+}
+.project-image-collage-container .image-card-2{
+    grid-row: 1/1;
+    grid-column: 2;
+}
+.project-image-collage-container .image-card-3{
+    grid-row: 2/3;
+    grid-column: 2;
+}
+.project-image-collage-container .image-card-4{
+    grid-row: 3/5;
+    grid-column: 2;
+}
+.project-details-container{
+    width: 100%;
+    height: 100%;
+}
+.sub-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.platform-tools-highlights-container{
+    width: 400px;
+}
+.font-1{
+    font-family: Inter;
+}
+.font-3{
+    font-family: inkfree;
+}
+.platform-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.colors-fonts-platform-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.colors-used-container,
+.fonts-used-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 220px;
+    padding-left: 10px;
+}
+.grid-colors{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%; /* Two columns, each 50% */
+    grid-template-rows: auto auto; /* Two rows */
+    gap:5px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.grid-colors div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.grid-colors span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.grid-colors .color-1{
+    background-color: var(--offwhite);
+}
+.grid-colors .color-2{
+    background-color: var(--green);
+}
+.grid-colors .color-3{
+    background-color: var(--phtaloGreen);
+}
+
+.grid-colors .color-4{
+    background-color: var(--black);
+}
+.fonts-used-container p{
+font-size: 12px;
+}
+.colors-used-container{
+    border-right: 1px solid var(--solidGreen);
+}
+
+.fonts-used-container{
+   border-left: 1px solid var(--solidGreen);
+}
+
+.project-details-container a{
+    background: var(--phtaloGreen);
+}
 /*Portfolio Page end */
 /*Gallery Page start */
 .hero_banner_gallery{
@@ -1895,6 +2061,7 @@ margin: 5px;
 }
 
 .collection-title h2.title{
+    color: var(--phtaloGreen);
     margin-top: 8px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -1903,11 +2070,43 @@ margin: 5px;
 }
 
 .collection-title h1.title{
+    color: var(--phtaloGreen);
     margin-top: 8px;
     text-decoration: none;
     letter-spacing: 1px;
     text-align: center;
     align-self: center;
+}
+h1.plaque-title{
+    color: var(--phtaloGreen);
+    margin-top: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    align-self: center;
+}
+
+h2.plaque-title{
+    color: var(--phtaloGreen);
+    margin-top: 8px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    align-self: center;
+}
+
+h3.plaque-title{
+    color: var(--phtaloGreen);
+    margin-top: 8px;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+h4.plaque-title{
+    color: var(--phtaloGreen);
+    margin-top: 8px;
+    font-size: 14px;
+    letter-spacing: 3px;
 }
 .collection-title .sub-title{
     color: var(--green);
@@ -1916,21 +2115,21 @@ margin: 5px;
     text-align: center;
 }
 
-.collection-title.gold-plaque span.collection-number{
+.gold-plaque span.collection-number{
     font-size: 15px;
     align-self: flex-start;
 }
-.collection-title.gold-plaque span.plaque-line{
+.gold-plaque span.plaque-line{
     align-self: flex-start;
 }
-.collection-title.gold-plaque span.collection-date{
+.gold-plaque span.collection-date{
     position: absolute;
     font-size: 12px;
     align-self: flex-end;
     line-height: 10px;
 }
 
-.collection-title.gold-plaque span.number-of-photo{
+.gold-plaque span.number-of-photo{
     font-size: 13px;
     align-self: flex-start;
     color: var(--green);
@@ -2582,6 +2781,12 @@ position:relative;
 
   margin: 30px 50px -30px 50px;
   }
+  
+.project-card-container{
+    flex-direction: column;
+    scale: 80%;
+}
+  
 }
 /*=========   Mobile     =========*/
 @media (max-width: 700px){
@@ -2624,6 +2829,18 @@ position:relative;
     width: 350px;
 }
 
+.section-projects{
+    margin: -70px 0 50px 0;
+}
+.colors-fonts-platform-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.platform-tools-highlights-container{
+    margin-top: 30px;
+}
 }
 @media (max-width: 500px){
 
