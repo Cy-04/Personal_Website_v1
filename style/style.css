@@ -1645,7 +1645,7 @@ height: 115px;
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(236, 231, 231, 0.3);
+  background: rgba(236, 231, 231, 0.15);
   transition: background 1s ease;
   display: flex;
   align-items: flex-end;    /* pins text to bottom */
