@@ -2665,7 +2665,7 @@ position:relative;
     }
     .card:nth-child(1),
     .card:nth-child(3){
-        display: none;
+        display: flex;
     }
         
     .carousel-container ul.carousel{
