@@ -1810,6 +1810,8 @@ height: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 80px;
 }
 .portfolio-header-subtitle{
     margin-top: -35px;
@@ -1817,8 +1819,8 @@ height: 115px;
 .project-card-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 1200px;
     gap: 20px;
 }
@@ -1834,6 +1836,11 @@ height: 115px;
     gap:8px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    align-self: center;
+}
+.image-placeholder{
+background-color: #063f37;
+border-radius: 20px;
 }
 .image-card-1{
     height: 400px;
@@ -1893,6 +1900,10 @@ height: 115px;
 .font-3{
     font-family: inkfree;
 }
+/*Ember Cafe font start*/
+.ember-cafe-font-3{
+}
+/*Ember Cafe font end*/
 .platform-container{
     display: flex;
     flex-direction: column;
@@ -1950,6 +1961,22 @@ height: 115px;
 .grid-colors .color-4{
     background-color: var(--black);
 }
+/*Ember Cafe Colors Start*/
+.grid-colors .ember-cafe-color-1{
+    background-color: #2B373F;
+}
+.grid-colors .ember-cafe-color-2{
+    background-color: #F0EEE4;
+}
+.grid-colors .ember-cafe-color-3{
+    background-color: #A91B0D;
+}
+
+.grid-colors .ember-cafe-color-4{
+    background-color: #D47E30;
+}
+/*Ember Cafe Colors End*/
+
 .fonts-used-container p{
 font-size: 12px;
 }
@@ -2861,7 +2888,7 @@ position:relative;
 }
 
 .section-projects{
-    margin: -70px 0 50px 0;
+    margin: -70px 0 50px 0;;
 }
 .colors-fonts-platform-container{
     flex-direction: column;
