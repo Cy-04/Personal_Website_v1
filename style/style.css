@@ -36,7 +36,8 @@ body{
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  margin: 30px 100px 0 100px;
+  margin: 30px auto 0 auto;
+  max-width: 1300px;
   gap: 4px;
   justify-content: center;
   align-content: center;
@@ -2195,6 +2196,10 @@ h4.plaque-title{
 }
 /*Gallery Page end */
 /*Collection Page Start*/
+.collection-grid{
+    max-width: 1300px;
+    margin: auto;
+}
 .hero_banner_container#hero-collection04{
     background: url("../assets/images/Gallery_Albums/Museo-del-Galeon/IMG_8271_optimized.jpg");
     /*box-shadow: inset 0 0 0 2000px var(--whiteOverlay) */
@@ -2216,6 +2221,14 @@ position:relative;
     min-height: 99vh;
     border-bottom-right-radius: 160px;
 
+}
+
+.inner-collection-banner-container .collection-title-container.collection-20-series-3{
+    background: url('https://assets.cyrinambos.net/col-20/series-03-churches-of-intramuros/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 .inner-collection-banner-container .collection-title-container.collection-20-series-2{
     background: url('https://assets.cyrinambos.net/col-20/series-02-fragments-of-intramuros/header_banner.jpg');
