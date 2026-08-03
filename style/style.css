@@ -1842,6 +1842,8 @@ height: 115px;
 .image-placeholder{
 background-color: #063f37;
 border-radius: 20px;
+width: 100%;
+height: 100%;
 }
 .image-card-1{
     height: 400px;
@@ -2223,6 +2225,13 @@ position:relative;
 
 }
 
+.inner-collection-banner-container .collection-title-container.collection-20-series-4{
+    background: url('https://assets.cyrinambos.net/col-20/series-04-baluarte-de-san-diego/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-20-series-3{
     background: url('https://assets.cyrinambos.net/col-20/series-03-churches-of-intramuros/hero_banner.jpg');
     background-size: cover;
