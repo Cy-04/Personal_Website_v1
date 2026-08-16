@@ -2665,6 +2665,11 @@ position:relative;
 .carousel-container ul.carousel{
     grid-auto-columns: calc((100% / 2) - 9px);
 }
+
+.project-details-container.gold-plaque{
+    scale: 85%;
+    margin: auto;
+}
 }
 @media (max-width: 850px){
     .hero_banner_header_container{
@@ -2677,6 +2682,11 @@ position:relative;
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+.project-details-container.gold-plaque{
+    width: 850px;
+    margin: auto;
 }
 }
 /*Small tablets to mobile phones*/
@@ -2796,6 +2806,10 @@ position:relative;
     width: 350px;
 }
 
+.project-details-container.gold-plaque{
+    width: 450px;
+    margin: auto;
+}
 }
 @media(max-width:400px){
 
@@ -2806,6 +2820,7 @@ position:relative;
     margin-left: -5px;
     bottom: 80px;
 } 
+
 }
 @media(max-width: 380px){
 .hero_banner_firstName{
@@ -2841,7 +2856,10 @@ position:relative;
     top: -15%;
     left:0;
 }
-
+.project-details-container.gold-plaque{
+    width: 395px;
+    margin: auto;
+}
 }
 /*=================== GRID BREAK POINTS ===================*/
 /*=========   Desktop    =========*/
