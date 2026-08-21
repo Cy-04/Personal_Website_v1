@@ -2232,7 +2232,48 @@ position:relative;
     border-bottom-right-radius: 160px;
 
 }
-
+.inner-collection-banner-container .collection-title-container.collection-24-series-5{
+    background: url('https://assets.cyrinambos.net/col-24/series-05-4th-flr-galleries-and-beyond/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-24-series-4{
+    background: url('https://assets.cyrinambos.net/col-24/series-04-3rd-flr-galleries/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-24-series-3{
+    background: url('https://assets.cyrinambos.net/col-24/series-03-courtyard/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-24-series-2{
+    background: url('https://assets.cyrinambos.net/col-24/series-02-2nd-flr-galleries/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-24-series-1{
+    background: url('https://assets.cyrinambos.net/col-24/series-01-finance-building/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-24{
+    background: url('https://assets.cyrinambos.net/col-24/series-01-finance-building/collection-hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-23-series-3{
     background: url('https://assets.cyrinambos.net/col-23/series-03-exploring-its-galleries/hero_banner.jpg');
     background-size: cover;
