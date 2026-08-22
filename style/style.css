@@ -1893,7 +1893,7 @@ height: 100%;
     width: 100%;
     height: 100%;
 }
-p.sub-title{
+.project-details-container p.sub-title{
     min-height: 50px;
 }
 .sub-details{
@@ -2235,6 +2235,41 @@ position:relative;
 
 }
 
+.inner-collection-banner-container .collection-title-container.collection-25-series-5{
+    background: url('https://assets.cyrinambos.net/col-25/series-05-venus-in-wood/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-25-series-4{
+    background: url('https://assets.cyrinambos.net/col-25/series-04-diwata/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-25-series-3{
+    background: url('https://assets.cyrinambos.net/col-25/series-03-spoliarium-hall/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-25-series-2{
+    background: url('https://assets.cyrinambos.net/col-25/series-02-spiral-staircase/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-25-series-1{
+    background: url('https://assets.cyrinambos.net/col-25/series-01-legislative-building/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-25{
     background: url('https://assets.cyrinambos.net/col-25/series-01-legislative-building/collection_hero_banner.jpg');
     background-size: cover;
