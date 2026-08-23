@@ -1911,6 +1911,7 @@ height: 115px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     align-self: center;
+   
 }
 .image-placeholder{
 background-color: #063f37;
@@ -2068,6 +2069,25 @@ font-size: 12px;
 .project-details-container a{
     background: var(--phtaloGreen);
 }
+.section-projects .project-card-container .project-image-collage-container{
+     transition: 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.section-projects .project-card-container .project-image-collage-container.active{
+    transform:translateX(0);
+    opacity:1;
+}
+
+.section-projects .project-card-container .project-details-container{
+     transition: 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(100px);
+}
+.section-projects .project-card-container .project-details-container.active{
+    transform:translateX(0);
+    opacity:1;
+}
 /*Portfolio Page end */
 /*Gallery Page start */
 .hero_banner_gallery{
@@ -2143,13 +2163,13 @@ align-self: flex-start;
   opacity: 1;
   transition: opacity 1s ease;
 }
-
 .collection-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
+
 .collection-container .collection{
   display: flex;
     flex-direction: column;
