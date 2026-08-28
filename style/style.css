@@ -2191,8 +2191,9 @@ align-self: flex-start;
     object-fit: cover;
     object-position: center;
     transition: 0.8s ease-in-out;
+}.collection-title{
+ max-width: 285.367px;   
 }
-
 .collection .image-container img:hover{
     scale: 105%;
     cursor: pointer;
@@ -2552,6 +2553,20 @@ background-position: center;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
 
+.inner-collection-banner-container .collection-title-container.collection-6-series-1{
+    background: url('https://assets.cyrinambos.net/col-6/series-01-manila-cathedral/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-6{
+    background: url('https://assets.cyrinambos.net/col-6/hero_banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-5-series-1{
     background: url('https://assets.cyrinambos.net/col-5/series-1/hero-banner.jpg');
     background-size: cover;
