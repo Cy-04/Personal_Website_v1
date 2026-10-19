@@ -2568,6 +2568,20 @@ background-color: var(--white);
 background-position: center;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
+.inner-collection-banner-container .collection-title-container.collection-5-series-5{
+    background: url('https://assets.cyrinambos.net/col-5/series-05-cafe-agusta/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-5-series-4{
+    background: url('https://assets.cyrinambos.net/col-5/series-04-caferoo-malate/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-5-series-3{
     background: url('https://assets.cyrinambos.net/col-5/series-03-gukeng-coffee/hero-banner.jpg');
     background-size: cover;
