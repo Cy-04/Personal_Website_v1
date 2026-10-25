@@ -2951,6 +2951,7 @@ position:relative;
 }
 
 .project-details-container.gold-plaque{
+    max-width: 100%;
     scale: 85%;
     margin: auto;
 }
@@ -3091,12 +3092,15 @@ position:relative;
 }
 
 .project-details-container.gold-plaque{
-    width: 450px;
+    
     margin: auto;
 }
 }
-@media(max-width:400px){
-
+@media(max-width:480px){
+  .project-details-container.gold-plaque {
+   
+    margin: auto;
+  }
 }
 @media(max-height: 854px){
    
@@ -3141,7 +3145,7 @@ position:relative;
     left:0;
 }
 .project-details-container.gold-plaque{
-    width: 395px;
+    max-width: 100%;
     margin: auto;
 }
 }
