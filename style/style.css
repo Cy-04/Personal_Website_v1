@@ -2575,6 +2575,20 @@ background-color: var(--white);
 background-position: center;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
+.inner-collection-banner-container .collection-title-container.collection-5-series-8{
+    background: url('https://assets.cyrinambos.net/col-5/series-08-myth-cafe/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
+.inner-collection-banner-container .collection-title-container.collection-5-series-7{
+    background: url('https://assets.cyrinambos.net/col-5/series-07-vera-cafe-mnl/hero-banner.jpg');
+    background-size: cover;
+background-color: var(--white);
+background-position: center;
+    box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
+}
 .inner-collection-banner-container .collection-title-container.collection-5-series-6{
     background: url('https://assets.cyrinambos.net/col-5/series-06-coffee-tonya/hero-banner.jpg');
     background-size: cover;
