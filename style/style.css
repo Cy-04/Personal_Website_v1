@@ -2320,7 +2320,14 @@ position:relative;
     border-bottom-right-radius: 160px;
 
 }
-
+.illustrated-map{
+    display: block;
+    max-width: 100%;
+}
+.illustrated-map img{
+    max-width: 100%;
+    margin: 70px 0 0 ;
+}
 .inner-collection-banner-container .collection-title-container.collection-25-series-9{
     background: url('https://assets.cyrinambos.net/col-25/series-09-4th-flr-galleries/hero_banner.jpg');
     background-size: cover;
@@ -2568,8 +2575,8 @@ background-color: var(--white);
 background-position: center;
     box-shadow: inset 0 0 0 2000px var(--whiteOverlay); 
 }
-.inner-collection-banner-container .collection-title-container.collection-5-series-7{
-    background: url('https://assets.cyrinambos.net/col-5/series-07-vera-cafe-mnl/hero-banner.jpg');
+.inner-collection-banner-container .collection-title-container.collection-5-series-9{
+    background: url('https://assets.cyrinambos.net/col-5/series-09-majikasa-cafe/hero-banner.jpg');
     background-size: cover;
 background-color: var(--white);
 background-position: center;
