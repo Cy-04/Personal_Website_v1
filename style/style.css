@@ -510,6 +510,7 @@ color: var(--green);
     font-size: 12px;
     text-align:center;
     color: var(--phtaloGreen);
+    line-height: 10px;
 }
 .nav-quickLinks-container li a.quickLink-letsConverse svg {
     fill: var(--green);
@@ -3319,7 +3320,7 @@ svg#myLogo-HeaderMobile{
     flex-direction: row;
     width: 100%;
     height: 10px;
- bottom: 10%;
+ bottom: 12%;
 }
 .nav-quickLinks-container.hidden li{
     transform: translateX(0);
