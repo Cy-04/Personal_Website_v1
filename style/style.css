@@ -257,6 +257,21 @@ textarea{
     
     text-align: center;
 }
+div.headerLogo-mobile{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding-top: 30px;
+    z-index: 1;
+}
+
+svg#myLogo-HeaderMobile{
+    width: 50px;
+   
+    display: none;
+    fill: var(--phtaloGreen);
+}
 /* MAIN NAVIGATION START*/
 header .mainNav{
     position: fixed;
@@ -3291,6 +3306,10 @@ position:relative;
 }
 /*=========   Mobile     =========*/
 @media (max-width: 700px){
+
+svg#myLogo-HeaderMobile{
+    display: block;
+}
 /*main nav mobile*/
 .mainNav{
     display: none;
