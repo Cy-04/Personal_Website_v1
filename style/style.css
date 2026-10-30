@@ -3291,7 +3291,22 @@ position:relative;
 }
 /*=========   Mobile     =========*/
 @media (max-width: 700px){
-
+/*main nav mobile*/
+.mainNav{
+    display: none;
+}
+/*quick links mobile*/
+.nav-quickLinks-container{
+    flex-direction: row;
+    width: 100%;
+    height: 10px;
+ bottom: 10%;
+}
+.nav-quickLinks-container.hidden li{
+    transform: translateX(0);
+    opacity: 1;
+}
+/*grid mobile*/
 .grid-2-portrait-1-landscape{
   grid-template-columns: 350px;
   margin: 30px 100px -30px 100px;
